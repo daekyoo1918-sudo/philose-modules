@@ -610,7 +610,7 @@
   {
    "id": "en-kjv",
    "type": "bible",
-   "version": "2026.10.16",
+   "version": "2026.10.18.1",
    "title": {
     "ko": "King James Version",
     "en": "King James Version"
@@ -619,9 +619,9 @@
    "license": "public-domain",
    "distributable": true,
    "file": "bible/en-kjv.sqlite",
-   "size": 7872512,
-   "gz_size": 3422419,
-   "sha256": "9e9b32fdbdb8e1d34513f3872614e655d51153613fd248919a03195adbbc03c7",
+   "size": 16240640,
+   "gz_size": 5970514,
+   "sha256": "46ca524c5ac8f83cbad9af5b0c2d807aa64dff0d7eea4a020c4cfefa57299d91",
    "versification": "kjv",
    "direction": "ltr",
    "note": "영국 내에서는 Crown copyright",
