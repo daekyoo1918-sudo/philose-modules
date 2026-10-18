@@ -195,7 +195,177 @@
    ]
   }
  ],
- "bilingual_packs": [],
+ "bilingual_packs": [
+  {
+   "id": "ko-en",
+   "name": {
+    "ko": "한영 (1911 + KJV)",
+    "en": "Korean–English (1911 + KJV)"
+   },
+   "modules": [
+    "ko-1911",
+    "en-kjv"
+   ]
+  },
+  {
+   "id": "en-ko",
+   "name": {
+    "ko": "영한 (KJV + 1911)",
+    "en": "English–Korean (KJV + 1911)"
+   },
+   "modules": [
+    "en-kjv",
+    "ko-1911"
+   ]
+  },
+  {
+   "id": "ko-en-web",
+   "name": {
+    "ko": "한영 현대 영어 (1911 + WEB)",
+    "en": "Korean–English (1911 + WEB)"
+   },
+   "modules": [
+    "ko-1911",
+    "en-web"
+   ]
+  },
+  {
+   "id": "ko-zh",
+   "name": {
+    "ko": "한중 (1911 + 和合本)",
+    "en": "Korean–Chinese (1911 + CUV)"
+   },
+   "modules": [
+    "ko-1911",
+    "zh-cuv-s"
+   ]
+  },
+  {
+   "id": "zh-ko",
+   "name": {
+    "ko": "중한 (和合本 + 1911)",
+    "en": "Chinese–Korean (CUV + 1911)"
+   },
+   "modules": [
+    "zh-cuv-s",
+    "ko-1911"
+   ]
+  },
+  {
+   "id": "ko-ja",
+   "name": {
+    "ko": "한일 (1911 + 일본어 자유역)",
+    "en": "Korean–Japanese"
+   },
+   "modules": [
+    "ko-1911",
+    "ja-freedom"
+   ]
+  },
+  {
+   "id": "ja-ko",
+   "name": {
+    "ko": "일한 (일본어 자유역 + 1911)",
+    "en": "Japanese–Korean"
+   },
+   "modules": [
+    "ja-freedom",
+    "ko-1911"
+   ]
+  },
+  {
+   "id": "ko-de",
+   "name": {
+    "ko": "한독 (1911 + 루터 1912)",
+    "en": "Korean–German (1911 + Luther 1912)"
+   },
+   "modules": [
+    "ko-1911",
+    "de-luther1912"
+   ]
+  },
+  {
+   "id": "de-ko",
+   "name": {
+    "ko": "독한 (루터 1912 + 1911)",
+    "en": "German–Korean"
+   },
+   "modules": [
+    "de-luther1912",
+    "ko-1911"
+   ]
+  },
+  {
+   "id": "ko-fr",
+   "name": {
+    "ko": "한불 (1911 + 루이 스공)",
+    "en": "Korean–French (1911 + LSG)"
+   },
+   "modules": [
+    "ko-1911",
+    "fr-lsg"
+   ]
+  },
+  {
+   "id": "ko-es",
+   "name": {
+    "ko": "한서 (1911 + 레이나 발레라)",
+    "en": "Korean–Spanish (1911 + RV1909)"
+   },
+   "modules": [
+    "ko-1911",
+    "es-rv1909"
+   ]
+  },
+  {
+   "id": "ko-ru",
+   "name": {
+    "ko": "한러 (1911 + 시노달)",
+    "en": "Korean–Russian (1911 + Synodal)"
+   },
+   "modules": [
+    "ko-1911",
+    "ru-synodal"
+   ]
+  },
+  {
+   "id": "ko-en-zh",
+   "name": {
+    "ko": "한영중 3개 국어",
+    "en": "Korean–English–Chinese"
+   },
+   "modules": [
+    "ko-1911",
+    "en-kjv",
+    "zh-cuv-s"
+   ]
+  },
+  {
+   "id": "ko-en-zh-ja",
+   "name": {
+    "ko": "한영중일 4개 국어",
+    "en": "Korean–English–Chinese–Japanese"
+   },
+   "modules": [
+    "ko-1911",
+    "en-kjv",
+    "zh-cuv-s",
+    "ja-freedom"
+   ]
+  },
+  {
+   "id": "ko-orig",
+   "name": {
+    "ko": "한글 + 원어 (히브리어·헬라어)",
+    "en": "Korean + Hebrew/Greek"
+   },
+   "modules": [
+    "ko-1911",
+    "hbo-oshb",
+    "grc-sblgnt"
+   ]
+  }
+ ],
  "format": "philose-modules",
  "format_version": 1,
  "release": "stable",
