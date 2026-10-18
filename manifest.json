@@ -2162,7 +2162,7 @@
   {
    "id": "wordhelp-zh",
    "type": "wordhelp",
-   "version": "2026.10.17.1",
+   "version": "2026.10.18.1",
    "title": {
     "ko": "중국어 낱말 도우미",
     "en": "Chinese Word Helper"
@@ -2171,10 +2171,10 @@
    "license": "CC-BY-SA-4.0",
    "distributable": true,
    "file": "wordhelp/wordhelp-zh.sqlite",
-   "size": 2355200,
-   "gz_size": 1246308,
-   "sha256": "c04c8c91c4161011f0a4c83ea11ff38c3ebe96ca9bf6ab8bef086ffa7e11721c",
-   "attribution": "CC-CEDICT (MDBG, CC BY-SA 4.0) · Unihan (Unicode License)",
+   "size": 2863104,
+   "gz_size": 1469298,
+   "sha256": "4b73d695eac0e1c34d3576d9d91bde64722ee3610ef1f6e821a9dc455bbd9877",
+   "attribution": "CC-CEDICT (MDBG, CC BY-SA 4.0) · Unihan (Unicode License) · 위키낱말사전/維基詞典 (Wiktionary contributors, CC BY-SA 4.0, via kaikki.org wiktextract) · 성경 낱말 한국어 뜻: 필로세",
    "requires": [
     "core"
    ]
