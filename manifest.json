@@ -12,7 +12,9 @@
   {
    "language": "ko",
    "name": {
-    "ko": "한국어"
+    "ko": "한국어",
+    "en": "Korean",
+    "zh": "韩语"
    },
    "modules": [
     "ko-1911"
@@ -21,7 +23,9 @@
   {
    "language": "en",
    "name": {
-    "ko": "영어"
+    "ko": "영어",
+    "en": "English",
+    "zh": "英语"
    },
    "modules": [
     "en-asv",
@@ -40,7 +44,9 @@
   {
    "language": "zh",
    "name": {
-    "ko": "중국어"
+    "ko": "중국어",
+    "en": "Chinese",
+    "zh": "中文"
    },
    "modules": [
     "zh-cuv-s",
@@ -51,7 +57,9 @@
   {
    "language": "ja",
    "name": {
-    "ko": "일본어"
+    "ko": "일본어",
+    "en": "Japanese",
+    "zh": "日语"
    },
    "modules": [
     "ja-freedom",
@@ -61,7 +69,9 @@
   {
    "language": "de",
    "name": {
-    "ko": "독일어"
+    "ko": "독일어",
+    "en": "German",
+    "zh": "德语"
    },
    "modules": [
     "de-elberfelder",
@@ -72,7 +82,9 @@
   {
    "language": "fr",
    "name": {
-    "ko": "프랑스어"
+    "ko": "프랑스어",
+    "en": "French",
+    "zh": "法语"
    },
    "modules": [
     "fr-darby",
@@ -83,7 +95,9 @@
   {
    "language": "es",
    "name": {
-    "ko": "스페인어"
+    "ko": "스페인어",
+    "en": "Spanish",
+    "zh": "西班牙语"
    },
    "modules": [
     "es-bes",
@@ -93,7 +107,9 @@
   {
    "language": "pt",
    "name": {
-    "ko": "포르투갈어"
+    "ko": "포르투갈어",
+    "en": "Portuguese",
+    "zh": "葡萄牙语"
    },
    "modules": [
     "pt-bsl"
@@ -102,7 +118,9 @@
   {
    "language": "it",
    "name": {
-    "ko": "이탈리아어"
+    "ko": "이탈리아어",
+    "en": "Italian",
+    "zh": "意大利语"
    },
    "modules": [
     "it-diodati",
@@ -112,7 +130,9 @@
   {
    "language": "nl",
    "name": {
-    "ko": "네덜란드어"
+    "ko": "네덜란드어",
+    "en": "Dutch",
+    "zh": "荷兰语"
    },
    "modules": [
     "nl-1917"
@@ -121,7 +141,9 @@
   {
    "language": "ru",
    "name": {
-    "ko": "러시아어"
+    "ko": "러시아어",
+    "en": "Russian",
+    "zh": "俄语"
    },
    "modules": [
     "ru-synodal"
@@ -130,7 +152,9 @@
   {
    "language": "uk",
    "name": {
-    "ko": "우크라이나어"
+    "ko": "우크라이나어",
+    "en": "Ukrainian",
+    "zh": "乌克兰语"
    },
    "modules": [
     "uk-kulish"
@@ -139,7 +163,9 @@
   {
    "language": "vi",
    "name": {
-    "ko": "베트남어"
+    "ko": "베트남어",
+    "en": "Vietnamese",
+    "zh": "越南语"
    },
    "modules": [
     "vi-1934"
@@ -148,7 +174,9 @@
   {
    "language": "th",
    "name": {
-    "ko": "태국어"
+    "ko": "태국어",
+    "en": "Thai",
+    "zh": "泰语"
    },
    "modules": [
     "th-freedom"
@@ -157,7 +185,9 @@
   {
    "language": "my",
    "name": {
-    "ko": "버마어"
+    "ko": "버마어",
+    "en": "Burmese",
+    "zh": "缅甸语"
    },
    "modules": [
     "my-judson"
@@ -166,7 +196,9 @@
   {
    "language": "ar",
    "name": {
-    "ko": "아랍어"
+    "ko": "아랍어",
+    "en": "Arabic",
+    "zh": "阿拉伯语"
    },
    "modules": [
     "ar-vandyke"
@@ -175,7 +207,9 @@
   {
    "language": "he",
    "name": {
-    "ko": "히브리어"
+    "ko": "히브리어",
+    "en": "Hebrew",
+    "zh": "希伯来语"
    },
    "modules": [
     "hbo-oshb",
@@ -185,7 +219,9 @@
   {
    "language": "grc",
    "name": {
-    "ko": "헬라어"
+    "ko": "헬라어",
+    "en": "Greek",
+    "zh": "希腊语"
    },
    "modules": [
     "grc-byz",
@@ -200,7 +236,8 @@
    "id": "ko-en",
    "name": {
     "ko": "한영 (1911 + KJV)",
-    "en": "Korean–English (1911 + KJV)"
+    "en": "Korean–English (1911 + KJV)",
+    "zh": "韩英对照 (1911 韩文译本 + KJV)"
    },
    "modules": [
     "ko-1911",
@@ -211,7 +248,8 @@
    "id": "en-ko",
    "name": {
     "ko": "영한 (KJV + 1911)",
-    "en": "English–Korean (KJV + 1911)"
+    "en": "English–Korean (KJV + 1911)",
+    "zh": "英韩对照 (KJV + 1911 韩文译本)"
    },
    "modules": [
     "en-kjv",
@@ -222,7 +260,8 @@
    "id": "ko-en-web",
    "name": {
     "ko": "한영 현대 영어 (1911 + WEB)",
-    "en": "Korean–English (1911 + WEB)"
+    "en": "Korean–English (1911 + WEB)",
+    "zh": "韩英对照 现代英语 (1911 韩文译本 + WEB)"
    },
    "modules": [
     "ko-1911",
@@ -233,7 +272,8 @@
    "id": "ko-zh",
    "name": {
     "ko": "한중 (1911 + 和合本)",
-    "en": "Korean–Chinese (1911 + CUV)"
+    "en": "Korean–Chinese (1911 + CUV)",
+    "zh": "韩中对照 (1911 韩文译本 + 和合本)"
    },
    "modules": [
     "ko-1911",
@@ -244,7 +284,8 @@
    "id": "zh-ko",
    "name": {
     "ko": "중한 (和合本 + 1911)",
-    "en": "Chinese–Korean (CUV + 1911)"
+    "en": "Chinese–Korean (CUV + 1911)",
+    "zh": "中韩对照 (和合本 + 1911 韩文译本)"
    },
    "modules": [
     "zh-cuv-s",
@@ -255,7 +296,8 @@
    "id": "ko-ja",
    "name": {
     "ko": "한일 (1911 + 일본어 자유역)",
-    "en": "Korean–Japanese"
+    "en": "Korean–Japanese",
+    "zh": "韩日对照 (1911 韩文译本 + 日语自由译本)"
    },
    "modules": [
     "ko-1911",
@@ -266,7 +308,8 @@
    "id": "ja-ko",
    "name": {
     "ko": "일한 (일본어 자유역 + 1911)",
-    "en": "Japanese–Korean"
+    "en": "Japanese–Korean",
+    "zh": "日韩对照 (日语自由译本 + 1911 韩文译本)"
    },
    "modules": [
     "ja-freedom",
@@ -277,7 +320,8 @@
    "id": "ko-de",
    "name": {
     "ko": "한독 (1911 + 루터 1912)",
-    "en": "Korean–German (1911 + Luther 1912)"
+    "en": "Korean–German (1911 + Luther 1912)",
+    "zh": "韩德对照 (1911 韩文译本 + 路德 1912)"
    },
    "modules": [
     "ko-1911",
@@ -288,7 +332,8 @@
    "id": "de-ko",
    "name": {
     "ko": "독한 (루터 1912 + 1911)",
-    "en": "German–Korean"
+    "en": "German–Korean",
+    "zh": "德韩对照 (路德 1912 + 1911 韩文译本)"
    },
    "modules": [
     "de-luther1912",
@@ -299,7 +344,8 @@
    "id": "ko-fr",
    "name": {
     "ko": "한불 (1911 + 루이 스공)",
-    "en": "Korean–French (1911 + LSG)"
+    "en": "Korean–French (1911 + LSG)",
+    "zh": "韩法对照 (1911 韩文译本 + LSG)"
    },
    "modules": [
     "ko-1911",
@@ -310,7 +356,8 @@
    "id": "ko-es",
    "name": {
     "ko": "한서 (1911 + 레이나 발레라)",
-    "en": "Korean–Spanish (1911 + RV1909)"
+    "en": "Korean–Spanish (1911 + RV1909)",
+    "zh": "韩西对照 (1911 韩文译本 + RV1909)"
    },
    "modules": [
     "ko-1911",
@@ -321,7 +368,8 @@
    "id": "ko-ru",
    "name": {
     "ko": "한러 (1911 + 시노달)",
-    "en": "Korean–Russian (1911 + Synodal)"
+    "en": "Korean–Russian (1911 + Synodal)",
+    "zh": "韩俄对照 (1911 韩文译本 + 俄文合订本)"
    },
    "modules": [
     "ko-1911",
@@ -332,7 +380,8 @@
    "id": "ko-en-zh",
    "name": {
     "ko": "한영중 3개 국어",
-    "en": "Korean–English–Chinese"
+    "en": "Korean–English–Chinese",
+    "zh": "韩英中 三语对照"
    },
    "modules": [
     "ko-1911",
@@ -344,7 +393,8 @@
    "id": "ko-en-zh-ja",
    "name": {
     "ko": "한영중일 4개 국어",
-    "en": "Korean–English–Chinese–Japanese"
+    "en": "Korean–English–Chinese–Japanese",
+    "zh": "韩英中日 四语对照"
    },
    "modules": [
     "ko-1911",
@@ -357,7 +407,8 @@
    "id": "ko-orig",
    "name": {
     "ko": "한글 + 원어 (히브리어·헬라어)",
-    "en": "Korean + Hebrew/Greek"
+    "en": "Korean + Hebrew/Greek",
+    "zh": "韩文 + 原文 (希伯来文·希腊文)"
    },
    "modules": [
     "ko-1911",
@@ -374,18 +425,19 @@
   {
    "id": "core",
    "type": "core",
-   "version": "2026.10.16",
+   "version": "2026.10.18",
    "title": {
     "ko": "기본 데이터",
-    "en": "Core"
+    "en": "Core",
+    "zh": "基本数据"
    },
    "language": "mul",
    "license": "public-domain",
    "distributable": true,
    "file": "core.sqlite",
-   "size": 192512,
-   "gz_size": 46995,
-   "sha256": "53e11700c8a3134d6a1fbf449286c8fa3937ba5090b516975e6edad6e499e502"
+   "size": 200704,
+   "gz_size": 50997,
+   "sha256": "435c431c725fe1d08a0d25ca2d4c4778ed42e35bd9a6358b550dd869743f7c86"
   },
   {
    "id": "ar-vandyke",
@@ -2162,7 +2214,7 @@
   {
    "id": "wordhelp-zh",
    "type": "wordhelp",
-   "version": "2026.10.18.1",
+   "version": "2026.10.18.2",
    "title": {
     "ko": "중국어 낱말 도우미",
     "en": "Chinese Word Helper"
@@ -2171,10 +2223,10 @@
    "license": "CC-BY-SA-4.0",
    "distributable": true,
    "file": "wordhelp/wordhelp-zh.sqlite",
-   "size": 2863104,
-   "gz_size": 1469298,
-   "sha256": "4b73d695eac0e1c34d3576d9d91bde64722ee3610ef1f6e821a9dc455bbd9877",
-   "attribution": "CC-CEDICT (MDBG, CC BY-SA 4.0) · Unihan (Unicode License) · 위키낱말사전/維基詞典 (Wiktionary contributors, CC BY-SA 4.0, via kaikki.org wiktextract) · 성경 낱말 한국어 뜻: 필로세",
+   "size": 3133440,
+   "gz_size": 1590145,
+   "sha256": "e655fc5fe545ba4476d7c65c67fcca20a87ad63290ed0d620652c05f42faa05e",
+   "attribution": "CC-CEDICT (MDBG, CC BY-SA 4.0) · Unihan (Unicode License) · jieba 사전 (MIT, 품사) · 위키낱말사전/維基詞典 (Wiktionary contributors, CC BY-SA 4.0, via kaikki.org wiktextract) · 성경 낱말 한국어 뜻: 필로세",
    "requires": [
     "core"
    ]
