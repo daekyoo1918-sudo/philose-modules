@@ -1,0 +1,2100 @@
+{
+ "app": {
+  "id": "philose",
+  "name": {
+   "ko": "필로세",
+   "en": "Philose"
+  },
+  "version": "0.1.0"
+ },
+ "revoked_licenses": [],
+ "language_packs": [
+  {
+   "language": "ko",
+   "name": {
+    "ko": "한국어"
+   },
+   "modules": [
+    "ko-1911"
+   ]
+  },
+  {
+   "language": "en",
+   "name": {
+    "ko": "영어"
+   },
+   "modules": [
+    "en-asv",
+    "en-bbe",
+    "en-bsb",
+    "en-darby",
+    "en-dra",
+    "en-geneva",
+    "en-kjv",
+    "en-rv",
+    "en-web",
+    "en-webster",
+    "en-ylt"
+   ]
+  },
+  {
+   "language": "zh",
+   "name": {
+    "ko": "중국어"
+   },
+   "modules": [
+    "zh-cuv-s",
+    "zh-cuv-t",
+    "zh-wcb"
+   ]
+  },
+  {
+   "language": "ja",
+   "name": {
+    "ko": "일본어"
+   },
+   "modules": [
+    "ja-freedom",
+    "ja-shinkaiyaku1965-nt"
+   ]
+  },
+  {
+   "language": "de",
+   "name": {
+    "ko": "독일어"
+   },
+   "modules": [
+    "de-elberfelder",
+    "de-luther1912",
+    "de-textbibel"
+   ]
+  },
+  {
+   "language": "fr",
+   "name": {
+    "ko": "프랑스어"
+   },
+   "modules": [
+    "fr-darby",
+    "fr-lsg",
+    "fr-ostervald"
+   ]
+  },
+  {
+   "language": "es",
+   "name": {
+    "ko": "스페인어"
+   },
+   "modules": [
+    "es-bes",
+    "es-rv1909"
+   ]
+  },
+  {
+   "language": "pt",
+   "name": {
+    "ko": "포르투갈어"
+   },
+   "modules": [
+    "pt-bsl"
+   ]
+  },
+  {
+   "language": "it",
+   "name": {
+    "ko": "이탈리아어"
+   },
+   "modules": [
+    "it-diodati",
+    "it-riveduta"
+   ]
+  },
+  {
+   "language": "nl",
+   "name": {
+    "ko": "네덜란드어"
+   },
+   "modules": [
+    "nl-1917"
+   ]
+  },
+  {
+   "language": "ru",
+   "name": {
+    "ko": "러시아어"
+   },
+   "modules": [
+    "ru-synodal"
+   ]
+  },
+  {
+   "language": "uk",
+   "name": {
+    "ko": "우크라이나어"
+   },
+   "modules": [
+    "uk-kulish"
+   ]
+  },
+  {
+   "language": "vi",
+   "name": {
+    "ko": "베트남어"
+   },
+   "modules": [
+    "vi-1934"
+   ]
+  },
+  {
+   "language": "th",
+   "name": {
+    "ko": "태국어"
+   },
+   "modules": [
+    "th-freedom"
+   ]
+  },
+  {
+   "language": "my",
+   "name": {
+    "ko": "버마어"
+   },
+   "modules": [
+    "my-judson"
+   ]
+  },
+  {
+   "language": "ar",
+   "name": {
+    "ko": "아랍어"
+   },
+   "modules": [
+    "ar-vandyke"
+   ]
+  },
+  {
+   "language": "he",
+   "name": {
+    "ko": "히브리어"
+   },
+   "modules": [
+    "hbo-oshb",
+    "he-modern"
+   ]
+  },
+  {
+   "language": "grc",
+   "name": {
+    "ko": "헬라어"
+   },
+   "modules": [
+    "grc-byz",
+    "grc-lxx",
+    "grc-sblgnt",
+    "grc-tr"
+   ]
+  }
+ ],
+ "bilingual_packs": [],
+ "format": "philose-modules",
+ "format_version": 1,
+ "release": "stable",
+ "min_app_schema": 1,
+ "modules": [
+  {
+   "id": "core",
+   "type": "core",
+   "version": "2026.10.16",
+   "title": {
+    "ko": "기본 데이터",
+    "en": "Core"
+   },
+   "language": "mul",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "core.sqlite",
+   "size": 192512,
+   "gz_size": 46995,
+   "sha256": "53e11700c8a3134d6a1fbf449286c8fa3937ba5090b516975e6edad6e499e502"
+  },
+  {
+   "id": "ar-vandyke",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "아랍어 반다이크 역",
+    "en": "Arabic Van Dyck Bible"
+   },
+   "language": "ar",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/ar-vandyke.sqlite",
+   "size": 12189696,
+   "gz_size": 4159895,
+   "sha256": "1660057c9869f4ceac1338c838c49b13d2444640f44469129c32c0880e0f5b6e",
+   "versification": "kjv",
+   "direction": "rtl",
+   "attribution": "Arabic Van Dyck Bible — Public Domain, eBible.org (arb-vd)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "de-elberfelder",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "엘버펠더 성경 (1871)",
+    "en": "Elberfelder Bibel (1871)"
+   },
+   "language": "de",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/de-elberfelder.sqlite",
+   "size": 8052736,
+   "gz_size": 3562101,
+   "sha256": "9b1bdd61a746309fabc45f8fe8df9a991e1de67b0c624b652270d20961d5ff2f",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Elberfelder Bibel (1871) — Public Domain, eBible.org (deuelo)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "de-luther1912",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "루터 성경 (1912)",
+    "en": "Luther Bibel (1912)"
+   },
+   "language": "de",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/de-luther1912.sqlite",
+   "size": 7716864,
+   "gz_size": 3454314,
+   "sha256": "41b2ed351eabc08ca67d4bcffc6d464ae39fe9f8ff5951f2ef73519358c92fae",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Luther Bibel (1912) — Public Domain, eBible.org (deu1912)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "de-textbibel",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "텍스트비벨 (카우치)",
+    "en": "Textbibel (Kautzsch)"
+   },
+   "language": "de",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/de-textbibel.sqlite",
+   "size": 8085504,
+   "gz_size": 3690130,
+   "sha256": "1216e233ea0cb9784c82f3a27b4ed649c44aca94be5c889b0cb5c1e24acc2f62",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Textbibel (Kautzsch) — Public Domain, eBible.org (deutkw)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-asv",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "미국 표준역 (ASV 1901)",
+    "en": "American Standard Version (1901)"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-asv.sqlite",
+   "size": 7798784,
+   "gz_size": 3375791,
+   "sha256": "8f22428657697e59d75401aab3ac8ae4a9d22b88a347b4377a7bce9513ef5980",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "American Standard Version (1901) — Public Domain, eBible.org (eng-asv)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-bbe",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "기본 영어 성경 (BBE)",
+    "en": "Bible in Basic English"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-bbe.sqlite",
+   "size": 7856128,
+   "gz_size": 3316338,
+   "sha256": "ac67706faa9001e35686801b1727d709fca79d29fb6a74a5e4e5a096106dcde6",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Bible in Basic English — Public Domain, eBible.org (engBBE)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-bsb",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "베레안 표준역 (BSB)",
+    "en": "Berean Standard Bible"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-bsb.sqlite",
+   "size": 7454720,
+   "gz_size": 3331688,
+   "sha256": "66f83247c14255ac6b1037a9b7e3bd8f1a0509b656b33bcbd692d7cfa7753b5d",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Berean Standard Bible — Public Domain, eBible.org (engbsb)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-darby",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "다비 역본",
+    "en": "Darby Translation"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-darby.sqlite",
+   "size": 7737344,
+   "gz_size": 3369792,
+   "sha256": "07c885634702aac65a639fc88bc8911dab56cb1b00afeaaae30998f38042e32e",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Darby Translation — Public Domain, eBible.org (engDBY)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-dra",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "두에-랭스 (1899, 가톨릭)",
+    "en": "Douay-Rheims (1899)"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-dra.sqlite",
+   "size": 7774208,
+   "gz_size": 3407456,
+   "sha256": "1bf7c23674b47febdc8ded8da6542adf35baef7f30dbf5e04ec57232ddde19c9",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Douay-Rheims (1899) — Public Domain, eBible.org (engDRA)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-geneva",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "제네바 성경 (1599)",
+    "en": "Geneva Bible (1599)"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-geneva.sqlite",
+   "size": 7864320,
+   "gz_size": 3429372,
+   "sha256": "5d095bfc38f3bfccb877afddb2dd884fc9d40006231465637517a0194a731e83",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Geneva Bible (1599) — Public Domain, eBible.org (enggnv)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-kjv",
+   "type": "bible",
+   "version": "2026.10.16",
+   "title": {
+    "ko": "King James Version",
+    "en": "King James Version"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-kjv.sqlite",
+   "size": 7872512,
+   "gz_size": 3422419,
+   "sha256": "9e9b32fdbdb8e1d34513f3872614e655d51153613fd248919a03195adbbc03c7",
+   "versification": "kjv",
+   "direction": "ltr",
+   "note": "영국 내에서는 Crown copyright",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-rv",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "영국 개역 (RV 1885)",
+    "en": "Revised Version (1885)"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-rv.sqlite",
+   "size": 7819264,
+   "gz_size": 3381265,
+   "sha256": "48c8798ee2d9e8bc5c8a22713b4168aea6cab6033cd4f335b16b1b7cda4bdd24",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Revised Version (1885) — Public Domain, eBible.org (eng-rv)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-web",
+   "type": "bible",
+   "version": "2026.10.16",
+   "title": {
+    "ko": "세계 영어 성경 (WEB)",
+    "en": "World English Bible"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-web.sqlite",
+   "size": 7626752,
+   "gz_size": 3330912,
+   "sha256": "3e1b578cf8210e60e83ff7211c16f4ff7ea04c836beaa56c50c8ed5489512696",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "World English Bible, eBible.org (Public Domain)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-webster",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "웹스터 성경 (1833)",
+    "en": "Webster Bible (1833)"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-webster.sqlite",
+   "size": 7766016,
+   "gz_size": 3374002,
+   "sha256": "aa1e1f280490ea57337a384485f9155133cc1804d748a033d1220fbb691b02f8",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Webster Bible (1833) — Public Domain, eBible.org (engwebster)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "en-ylt",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "영의 직역 (YLT)",
+    "en": "Young's Literal Translation"
+   },
+   "language": "en",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/en-ylt.sqlite",
+   "size": 7806976,
+   "gz_size": 3360946,
+   "sha256": "914f992961703b2ea3e4aa90fce2cedd0aa99182261d459d4c319f3912a70f81",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Young's Literal Translation — Public Domain, eBible.org (engylt)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "es-bes",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "쉬운 스페인어 성경",
+    "en": "La Biblia en Español Sencillo"
+   },
+   "language": "es",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/es-bes.sqlite",
+   "size": 7303168,
+   "gz_size": 3252793,
+   "sha256": "729a3737f2f2502c0fba49befec4b55529ef74e83f88a448f8056c31516c51f0",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "La Biblia en Español Sencillo — Public Domain, eBible.org (spabes)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "es-rv1909",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "레이나 발레라 (1909)",
+    "en": "Reina Valera (1909)"
+   },
+   "language": "es",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/es-rv1909.sqlite",
+   "size": 7540736,
+   "gz_size": 3390032,
+   "sha256": "10db683390ab8860afd33f3b6a2d26ffa76fb3fdb0fd2b1306e9a69a9b6418d6",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Reina Valera (1909) — Public Domain, eBible.org (spaRV1909)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "facts-theographic",
+   "type": "facts",
+   "version": "2026.10.17.2",
+   "title": {
+    "ko": "성경 인물·지명·사건",
+    "en": "Bible People, Places & Events"
+   },
+   "language": "ko",
+   "license": "CC-BY-SA-4.0",
+   "distributable": true,
+   "file": "facts/facts-theographic.sqlite",
+   "size": 3383296,
+   "gz_size": 1033981,
+   "sha256": "7b09619662db168794584e03eae769ba651adc0c1fbde869380e750df1597b61",
+   "attribution": "Theographic Bible Metadata (Robert Rouse, CC BY-SA 4.0) · 한국어 이름은 개역한글에서 자동 대응 · 지도 Natural Earth (public domain)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "font-grc-gfs-didot",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "GFS Didot",
+    "en": "GFS Didot"
+   },
+   "language": "grc",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-grc-gfs-didot.sqlite",
+   "size": 208896,
+   "gz_size": 80644,
+   "sha256": "fa79dcbb5ec453ad33cb9175a773ec7d67db4fb7331f538ac7d4f1933eb36a28",
+   "note": "그리스 전통 활자 헬라어",
+   "attribution": "GFS Didot — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-he-david-libre",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "David Libre",
+    "en": "David Libre"
+   },
+   "language": "he",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-he-david-libre.sqlite",
+   "size": 278528,
+   "gz_size": 132897,
+   "sha256": "7ad4269397ca225c025e24122bc7028b77b8c9652de837a4f83ecec99dbfcbdd",
+   "note": "히브리어 (모음 부호까지, 악센트 일부)",
+   "attribution": "David Libre — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-he-frank-ruhl",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Frank Ruhl Libre",
+    "en": "Frank Ruhl Libre"
+   },
+   "language": "he",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-he-frank-ruhl.sqlite",
+   "size": 196608,
+   "gz_size": 94155,
+   "sha256": "fcdb283928ab26c6d960921d753128bbd8ec0d5b12f027580e88ed0a9a3aa422",
+   "note": "이스라엘 신문·책 활자 (모음 부호)",
+   "attribution": "Frank Ruhl Libre — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-ja-klee-one",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "クレー (Klee One)",
+    "en": "Klee One"
+   },
+   "language": "ja",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ja-klee-one.sqlite",
+   "size": 17666048,
+   "gz_size": 9565792,
+   "sha256": "1746233727f852631462fec3c06797700a681c9174c546f120acf53b3ead5502",
+   "note": "교과서 손글씨",
+   "attribution": "Klee One — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-ja-noto-serif",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "源ノ明朝 (Noto Serif JP)",
+    "en": "Noto Serif JP"
+   },
+   "language": "ja",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ja-noto-serif.sqlite",
+   "size": 6234112,
+   "gz_size": 5254944,
+   "sha256": "fdccb079c0fd9d63cfac9e40c40dcc4556ad18a494e5c04318e1313c482f648c",
+   "note": "일본어 명조",
+   "attribution": "Noto Serif JP — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-ja-shippori-mincho",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "しっぽり明朝 (Shippori Mincho)",
+    "en": "Shippori Mincho"
+   },
+   "language": "ja",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ja-shippori-mincho.sqlite",
+   "size": 8704000,
+   "gz_size": 4533539,
+   "sha256": "9dac055988ff3f234eafcc4f7dde3990c5375eeba63f0da05c9d825f20b0d591",
+   "note": "옛 책 같은 명조",
+   "attribution": "Shippori Mincho — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-ja-yomogi",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "よもぎ (Yomogi)",
+    "en": "Yomogi"
+   },
+   "language": "ja",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ja-yomogi.sqlite",
+   "size": 4067328,
+   "gz_size": 2348586,
+   "sha256": "b1a6f809433aab91abb154ca9fdc1786f6a0eff874cacdb469fa20f27fe63d17",
+   "note": "연필로 쓴 손글씨",
+   "attribution": "Yomogi — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-ja-zen-kurenaido",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "禅紅藍 (Zen Kurenaido)",
+    "en": "Zen Kurenaido"
+   },
+   "language": "ja",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ja-zen-kurenaido.sqlite",
+   "size": 4325376,
+   "gz_size": 2134254,
+   "sha256": "6adb3e9d6295c2851ee1907deabd14407fe177d979e9cea1e5ce7c2d80cd7be8",
+   "note": "부드러운 붓펜 글씨",
+   "attribution": "Zen Kurenaido — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-ko-dongle",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "동글",
+    "en": "Dongle"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-dongle.sqlite",
+   "size": 8966144,
+   "gz_size": 1210348,
+   "sha256": "c0944908423b32f84068d1f378b17a1c2ae853ee23f3692974ea00b1eab8c730",
+   "note": "동글동글한 글씨",
+   "attribution": "Dongle — SIL Open Font License 1.1",
+   "style": "sans"
+  },
+  {
+   "id": "font-ko-gaegu",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "개구",
+    "en": "Gaegu"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-gaegu.sqlite",
+   "size": 6152192,
+   "gz_size": 1777897,
+   "sha256": "f169379052f02ed85e578bba95d00f4d480a5a9efe0839810b6753cdb44a01a6",
+   "note": "또박또박 손글씨",
+   "attribution": "Gaegu — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-ko-gamja-flower",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "감자꽃",
+    "en": "Gamja Flower"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-gamja-flower.sqlite",
+   "size": 12644352,
+   "gz_size": 2948663,
+   "sha256": "d249fc90e8b8eb2c449c2d8220b14034847ad0b55bff47d724a135e41556fedb",
+   "note": "동글한 손글씨",
+   "attribution": "Gamja Flower — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-ko-gowun-batang",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "고운바탕",
+    "en": "Gowun Batang"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-gowun-batang.sqlite",
+   "size": 16650240,
+   "gz_size": 3417862,
+   "sha256": "f7d0872a6094ffb81593a8699c9859781667148d1a69f502a99b862dc5362eb2",
+   "note": "부드러운 바탕체",
+   "attribution": "Gowun Batang — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-ko-gowun-dodum",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "고운돋움",
+    "en": "Gowun Dodum"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-gowun-dodum.sqlite",
+   "size": 7254016,
+   "gz_size": 1441742,
+   "sha256": "1409790e7a3655b45c9bb6cfeefaa42eba5444a3242c94b55e834ef4a7cb676e",
+   "note": "부드러운 돋움체",
+   "attribution": "Gowun Dodum — SIL Open Font License 1.1",
+   "style": "sans"
+  },
+  {
+   "id": "font-ko-hahmlet",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "함렛",
+    "en": "Hahmlet"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-hahmlet.sqlite",
+   "size": 3579904,
+   "gz_size": 1337319,
+   "sha256": "e2b1162e2044a61e08bf5606702b7812772642fde126269f5d0d27f476e5bbee",
+   "note": "현대적인 명조체",
+   "attribution": "Hahmlet — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-ko-hi-melody",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "하이멜로디",
+    "en": "Hi Melody"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-hi-melody.sqlite",
+   "size": 12652544,
+   "gz_size": 2760680,
+   "sha256": "f1ff70f9fd0dcca27f5a4379ae39b2dcc6183897bee61e6f95de4c4a3a9e87a6",
+   "note": "가볍고 귀여운 손글씨",
+   "attribution": "Hi Melody — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-ko-ibm-plex",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "IBM Plex Sans KR",
+    "en": "IBM Plex Sans KR"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-ibm-plex.sqlite",
+   "size": 5701632,
+   "gz_size": 2025186,
+   "sha256": "19b9d7cd8cea0555b649e26f50d1075e04f0459fe9fc83baed9d6a539eb79e1d",
+   "note": "작은 글자도 잘 보이는 고딕",
+   "attribution": "IBM Plex Sans KR — SIL Open Font License 1.1",
+   "style": "sans"
+  },
+  {
+   "id": "font-ko-nanum-brush",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "나눔손글씨 붓",
+    "en": "Nanum Brush Script"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-nanum-brush.sqlite",
+   "size": 3588096,
+   "gz_size": 1432477,
+   "sha256": "981d6f3b112185751fdfb220c53253a7a065d70457da8607cbbd7d5c49a2551f",
+   "note": "붓으로 쓴 손글씨",
+   "attribution": "Nanum Brush Script — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-ko-nanum-gothic",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "나눔고딕",
+    "en": "Nanum Gothic"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-nanum-gothic.sqlite",
+   "size": 4149248,
+   "gz_size": 1473318,
+   "sha256": "28bc5fe4e8ae999eb69e670c14352f76feb7c1b9b2f0965235715a7ffd286d89",
+   "note": "깔끔한 돋움체",
+   "attribution": "Nanum Gothic — SIL Open Font License 1.1",
+   "style": "sans"
+  },
+  {
+   "id": "font-ko-nanum-myeongjo",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "나눔명조",
+    "en": "Nanum Myeongjo"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-nanum-myeongjo.sqlite",
+   "size": 6156288,
+   "gz_size": 2153366,
+   "sha256": "3d065224b6179a9d647f53af101543e6a922f1cea56241ebb3f28ced675b898e",
+   "note": "책 같은 바탕체",
+   "attribution": "Nanum Myeongjo — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-ko-nanum-pen",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "나눔손글씨 펜",
+    "en": "Nanum Pen Script"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-nanum-pen.sqlite",
+   "size": 3223552,
+   "gz_size": 1285985,
+   "sha256": "a72abffc4bf6900da34d65544ef94ceed312d658381096c40d01c57591dbf001",
+   "note": "펜으로 쓴 손글씨",
+   "attribution": "Nanum Pen Script — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-ko-noto-sans",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "본고딕 (Noto Sans KR)",
+    "en": "Noto Sans KR"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-noto-sans.sqlite",
+   "size": 4669440,
+   "gz_size": 3733550,
+   "sha256": "bcbd4d3aba5114ea4ec8e98846c38f67deda54ff855dce278138130e82bd7bc6",
+   "note": "또렷한 고딕체",
+   "attribution": "Noto Sans KR — SIL Open Font License 1.1",
+   "style": "sans"
+  },
+  {
+   "id": "font-ko-noto-serif",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "본명조 (Noto Serif KR)",
+    "en": "Noto Serif KR"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-noto-serif.sqlite",
+   "size": 7696384,
+   "gz_size": 5879093,
+   "sha256": "04a97121c17538f810a0fd351d60c7638853fa352dbf4c1fc3e0a28166ffb8a0",
+   "note": "또렷한 명조체",
+   "attribution": "Noto Serif KR — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-ko-poor-story",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "푸어스토리",
+    "en": "Poor Story"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-poor-story.sqlite",
+   "size": 3989504,
+   "gz_size": 997780,
+   "sha256": "68b298ebb1655c9a73cf24f30c455c241c2b2799006849410c318b3c8c60dee3",
+   "note": "일기장 같은 손글씨",
+   "attribution": "Poor Story — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-ko-song-myung",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "송명",
+    "en": "Song Myung"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-song-myung.sqlite",
+   "size": 2056192,
+   "gz_size": 638300,
+   "sha256": "4a04bdb25a5c85b901911a9533fae757cb8ca0159252e744dad975546d29406a",
+   "note": "옛 활자 느낌의 명조",
+   "attribution": "Song Myung — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-ko-yeon-sung",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "연성",
+    "en": "Yeon Sung"
+   },
+   "language": "ko",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-ko-yeon-sung.sqlite",
+   "size": 2531328,
+   "gz_size": 1098938,
+   "sha256": "9be55a032fb7f81e9efd79239388f02a425e51b82129edcccc9db598380b79c1",
+   "note": "붓글씨 느낌",
+   "attribution": "Yeon Sung — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-latin-atkinson",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Atkinson Hyperlegible",
+    "en": "Atkinson Hyperlegible"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-atkinson.sqlite",
+   "size": 126976,
+   "gz_size": 59770,
+   "sha256": "7843d6a3429549f68dc34bca0b72adc6620ee06662e6c109f5f23c4e0dc04d7e",
+   "note": "눈이 약한 분을 위해 만든 글꼴",
+   "attribution": "Atkinson Hyperlegible — SIL Open Font License 1.1",
+   "style": "sans"
+  },
+  {
+   "id": "font-latin-caveat",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Caveat",
+    "en": "Caveat"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-caveat.sqlite",
+   "size": 421888,
+   "gz_size": 218304,
+   "sha256": "3975a7506d8274bef394e6c0f7f56e6bcbaf9afbad4e373b75cbc34b1caf9746",
+   "note": "편하게 쓴 손글씨",
+   "attribution": "Caveat — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-latin-crimson",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Crimson Text",
+    "en": "Crimson Text"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-crimson.sqlite",
+   "size": 237568,
+   "gz_size": 110140,
+   "sha256": "67ad9c892d4e25d0e7f7c70e383a1f340bf5e97b6f02c547fbcfe0232741d499",
+   "note": "옛 책 같은 영문 바탕체",
+   "attribution": "Crimson Text — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-latin-dancing-script",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Dancing Script",
+    "en": "Dancing Script"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-dancing-script.sqlite",
+   "size": 151552,
+   "gz_size": 75273,
+   "sha256": "a424d350f89b767fab141e277fd21f9cf84b659cd357b951d1e127ba1bd7cd71",
+   "note": "흘려 쓴 필기체",
+   "attribution": "Dancing Script — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-latin-eb-garamond",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "EB Garamond",
+    "en": "EB Garamond"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-eb-garamond.sqlite",
+   "size": 872448,
+   "gz_size": 401845,
+   "sha256": "09f41a1f27b95c47b77829ed85c4ae71fddc0742d37d3f6f670875914f2cbb45",
+   "note": "고전 성경 활자 가라몬드",
+   "attribution": "EB Garamond — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-latin-gentium-book",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Gentium Book Plus",
+    "en": "Gentium Book Plus"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-gentium-book.sqlite",
+   "size": 1675264,
+   "gz_size": 851637,
+   "sha256": "ead643cf873a6a15bdc3e498f5c29a8ec51a969f2785028b172bffc2643fb12b",
+   "note": "굵직한 젠티움 (헬라어 글자도)",
+   "attribution": "Gentium Book Plus — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-latin-lexend",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Lexend",
+    "en": "Lexend"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-lexend.sqlite",
+   "size": 192512,
+   "gz_size": 91346,
+   "sha256": "a1be96bf9a176f3571afce2cf7d97dfa0e9d3f4f060f396864fb209a19f8c25d",
+   "note": "글자 사이가 넉넉해 읽기 쉬운 글꼴",
+   "attribution": "Lexend — SIL Open Font License 1.1",
+   "style": "sans"
+  },
+  {
+   "id": "font-latin-libre-baskerville",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Libre Baskerville",
+    "en": "Libre Baskerville"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-libre-baskerville.sqlite",
+   "size": 192512,
+   "gz_size": 81933,
+   "sha256": "48a1a2ae4097d59891c13eaf3aed94507ee1f38f61ed7159965489515316aa3f",
+   "note": "단정한 배스커빌",
+   "attribution": "Libre Baskerville — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-latin-literata",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Literata",
+    "en": "Literata"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-literata.sqlite",
+   "size": 974848,
+   "gz_size": 513542,
+   "sha256": "5e58d2d0d38c55c6dc997f773ea1dbfd5c6b5ba3a1fb672ec2d517063cd1bc83",
+   "note": "전자책용 바탕체 (오래 읽기 편함)",
+   "attribution": "Literata — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-latin-lora",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Lora",
+    "en": "Lora"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-lora.sqlite",
+   "size": 229376,
+   "gz_size": 108123,
+   "sha256": "a2edcf9a74f4ff872bc99f0b42379869a69c524e888e794abebcf9d3468bcf29",
+   "note": "부드러운 현대 바탕체",
+   "attribution": "Lora — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-latin-merriweather",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Merriweather",
+    "en": "Merriweather"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-merriweather.sqlite",
+   "size": 4653056,
+   "gz_size": 3197207,
+   "sha256": "459708d7a8ed794f0708fbec3c8f8763512580bcd38f29dbf6816fd55555b543",
+   "note": "화면에서 또렷한 바탕체",
+   "attribution": "Merriweather — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-latin-pt-serif",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "PT Serif",
+    "en": "PT Serif"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-pt-serif.sqlite",
+   "size": 716800,
+   "gz_size": 348632,
+   "sha256": "cdbc16b65aaf03fdeca0316da8f2c419584012d8063541594caecb41daa6967b",
+   "note": "읽기 편한 바탕체 (러시아어·우크라이나어 글자도)",
+   "attribution": "PT Serif — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-latin-source-serif",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "Source Serif 4",
+    "en": "Source Serif 4"
+   },
+   "language": "latin",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-latin-source-serif.sqlite",
+   "size": 1228800,
+   "gz_size": 553792,
+   "sha256": "cdfa859e8e4df98faf589c7cdbb98e7cebd6944c36e0ca2af1ef07495833c5a5",
+   "note": "깔끔한 바탕체",
+   "attribution": "Source Serif 4 — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-zh-long-cang",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "龙藏体 (Long Cang)",
+    "en": "Long Cang"
+   },
+   "language": "zh",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-zh-long-cang.sqlite",
+   "size": 5185536,
+   "gz_size": 3467184,
+   "sha256": "30e05bab8556c10dbc84abed8fa25dcf47da0fdd050b93d7753c0ce08b4f37ec",
+   "note": "펜으로 쓴 손글씨 (간체)",
+   "attribution": "Long Cang — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-zh-lxgw-wenkai",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "霞鹜文楷 (LXGW WenKai)",
+    "en": "LXGW WenKai"
+   },
+   "language": "zh",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-zh-lxgw-wenkai.sqlite",
+   "size": 19120128,
+   "gz_size": 11659305,
+   "sha256": "35e7002b895663076179a82e6272b9d453d5f199aabe7fca6e2474e07ea41df7",
+   "note": "붓글씨 느낌의 해서체 (간체·번체)",
+   "attribution": "LXGW WenKai — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-zh-ma-shan-zheng",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "马善政 楷书 (Ma Shan Zheng)",
+    "en": "Ma Shan Zheng"
+   },
+   "language": "zh",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-zh-ma-shan-zheng.sqlite",
+   "size": 5881856,
+   "gz_size": 3810353,
+   "sha256": "e9a573927ae331d2d853417f521fd8cfade10140f9dd2b02e7cf958ee5d7f98f",
+   "note": "붓으로 쓴 해서체 (간체)",
+   "attribution": "Ma Shan Zheng — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "font-zh-noto-serif-sc",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "思源宋体 简体 (Noto Serif SC)",
+    "en": "Noto Serif SC"
+   },
+   "language": "zh",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-zh-noto-serif-sc.sqlite",
+   "size": 11657216,
+   "gz_size": 9879234,
+   "sha256": "4986b1a213a85b85c78dbbbddb1a0069d29fafabb793863c2d2895fe21137f62",
+   "note": "간체 명조",
+   "attribution": "Noto Serif SC — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-zh-noto-serif-tc",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "思源宋體 繁體 (Noto Serif TC)",
+    "en": "Noto Serif TC"
+   },
+   "language": "zh",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-zh-noto-serif-tc.sqlite",
+   "size": 7962624,
+   "gz_size": 6760056,
+   "sha256": "d0ec710699187c0263a5936dbe8d688a4ae297c04394f478c42d0734f84d7603",
+   "note": "번체 명조",
+   "attribution": "Noto Serif TC — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-zh-zcool-xiaowei",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "站酷小薇 (ZCOOL XiaoWei)",
+    "en": "ZCOOL XiaoWei"
+   },
+   "language": "zh",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-zh-zcool-xiaowei.sqlite",
+   "size": 6336512,
+   "gz_size": 3423403,
+   "sha256": "62c008cab0d391422f619d8fec606b59e2ad65601405383ff6dbd86187f1988d",
+   "note": "가늘고 우아한 명조 (간체)",
+   "attribution": "ZCOOL XiaoWei — SIL Open Font License 1.1",
+   "style": "serif"
+  },
+  {
+   "id": "font-zh-zhi-mang-xing",
+   "type": "font",
+   "version": "2026.10.18",
+   "title": {
+    "ko": "志莽行书 (Zhi Mang Xing)",
+    "en": "Zhi Mang Xing"
+   },
+   "language": "zh",
+   "license": "OFL-1.1",
+   "distributable": true,
+   "file": "font/font-zh-zhi-mang-xing.sqlite",
+   "size": 4087808,
+   "gz_size": 2723714,
+   "sha256": "86050b9bc2b4a6b68fc0ad036644b32dc9ba2f180b1ef07a770edac54718e660",
+   "note": "흘려 쓴 행서 (간체)",
+   "attribution": "Zhi Mang Xing — SIL Open Font License 1.1",
+   "style": "hand"
+  },
+  {
+   "id": "fr-darby",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "다비 프랑스어 역본",
+    "en": "Bible J.N. Darby"
+   },
+   "language": "fr",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/fr-darby.sqlite",
+   "size": 8359936,
+   "gz_size": 3622603,
+   "sha256": "43755b2d966da7b3a105e80ae8d8418a4d369d67e02fa73ab87b85266a49c9c2",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Bible J.N. Darby — Public Domain, eBible.org (frajnd)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "fr-lsg",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "루이 스공 (1910)",
+    "en": "Louis Segond (1910)"
+   },
+   "language": "fr",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/fr-lsg.sqlite",
+   "size": 8114176,
+   "gz_size": 3573516,
+   "sha256": "3d587e32b2b702363b8fb119ebfd84d499a45a781d0e593daee4ff3d6f5506fc",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Louis Segond (1910) — Public Domain, eBible.org (fraLSG)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "fr-ostervald",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "오스테르발트 성경",
+    "en": "Bible Ostervald"
+   },
+   "language": "fr",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/fr-ostervald.sqlite",
+   "size": 8130560,
+   "gz_size": 3615417,
+   "sha256": "e45d9eb4b7d30e1611881a4be4e8853e2d6e223be2568fd5ba517172c3e98589",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Bible Ostervald — Public Domain, eBible.org (fra_fob)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "grc-byz",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "비잔틴 본문 (헬라어 신약)",
+    "en": "Byzantine Greek NT"
+   },
+   "language": "grc",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/grc-byz.sqlite",
+   "size": 2707456,
+   "gz_size": 980592,
+   "sha256": "6741aa86bb68a46b86e4407f02b036b35a77e86edf2d1fc2e0c640be56df59d7",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Byzantine Greek NT — Public Domain, eBible.org (grcbyz)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "grc-lxx",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "칠십인역 (LXX, 헬라어 구약)",
+    "en": "Septuagint"
+   },
+   "language": "grc",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/grc-lxx.sqlite",
+   "size": 8294400,
+   "gz_size": 2803460,
+   "sha256": "e2fce109eca3e8914cb3fe29ad15275e8a48a0369e68bf7f209d1eca630620ec",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Septuagint — Public Domain, eBible.org (grclxx)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "grc-sblgnt",
+   "type": "bible",
+   "version": "2026.10.17.1",
+   "title": {
+    "ko": "헬라어 신약 (SBLGNT)",
+    "en": "SBL Greek New Testament"
+   },
+   "language": "grc",
+   "license": "cc-by-4.0",
+   "distributable": true,
+   "file": "bible/grc-sblgnt.sqlite",
+   "size": 12611584,
+   "gz_size": 3580969,
+   "sha256": "ea0c3c9c3d2351472aa865b7bdae5b3776ffde23e043bae05d15cd9629eb2769",
+   "versification": "kjv",
+   "direction": "ltr",
+   "note": "비평 본문 (NA 계열). 원형·형태: MorphGNT (CC BY-SA 3.0). 스트롱 번호는 원형으로 찾음",
+   "attribution": "Scripture quotations marked SBLGNT are from the SBL Greek New Testament. Copyright © 2010 Society of Biblical Literature and Logos Bible Software. Morphology and lemmatization: MorphGNT (James K. Tauber, CC BY-SA 3.0), https://github.com/morphgnt/sblgnt",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "grc-tr",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "공인 본문 (TR, 헬라어 신약)",
+    "en": "Textus Receptus"
+   },
+   "language": "grc",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/grc-tr.sqlite",
+   "size": 2719744,
+   "gz_size": 988360,
+   "sha256": "3c0b11c2aef71575351baa5674f3bd684c7021129afbb0927e3647193b0edc36",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Textus Receptus — Public Domain, eBible.org (grctr)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "hbo-oshb",
+   "type": "bible",
+   "version": "2026.10.17.1",
+   "title": {
+    "ko": "히브리어 구약 (OSHB)",
+    "en": "Open Scriptures Hebrew Bible"
+   },
+   "language": "hbo",
+   "license": "cc-by-4.0",
+   "distributable": true,
+   "file": "bible/hbo-oshb.sqlite",
+   "size": 27279360,
+   "gz_size": 8804193,
+   "sha256": "ff09901f74aa305c3673ac242812b9f184b9241ba92c38e6e8ae16e8fb1d11ba",
+   "versification": "kjv",
+   "direction": "rtl",
+   "note": "웨스트민스터 레닌그라드 사본(WLC) 본문, 낱말마다 스트롱 번호·형태 부호. 절은 KJV에 맞춤",
+   "attribution": "Open Scriptures Hebrew Bible (OSHB), CC BY 4.0, https://hb.openscriptures.org — 본문 Westminster Leningrad Codex (Public Domain)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "he-modern",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "현대 히브리어 성경",
+    "en": "Modern Hebrew Bible"
+   },
+   "language": "he",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/he-modern.sqlite",
+   "size": 6868992,
+   "gz_size": 2793691,
+   "sha256": "981dc4dceb2d0fd120946a5627582dcb46f94b93d6d12d7a8c664c291bf4d267",
+   "versification": "kjv",
+   "direction": "rtl",
+   "attribution": "Modern Hebrew Bible — Public Domain, eBible.org (heb)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "it-diodati",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "디오다티 (1885)",
+    "en": "Diodati (1885)"
+   },
+   "language": "it",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/it-diodati.sqlite",
+   "size": 8134656,
+   "gz_size": 3652706,
+   "sha256": "4dc7d4025794c7eee1ca0c44206e7c2ea8e9af00d65ade2506c4eee6dbbc9d49",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Diodati (1885) — Public Domain, eBible.org (ita1885)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "it-riveduta",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "리베두타 (1927)",
+    "en": "Riveduta (1927)"
+   },
+   "language": "it",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/it-riveduta.sqlite",
+   "size": 7995392,
+   "gz_size": 3632193,
+   "sha256": "fc34630d3126f7c098a25b992c107a7bd20db0d377371f28965f9a35a5c7873d",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Riveduta (1927) — Public Domain, eBible.org (ita1927)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "ja-freedom",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "일본어 프리덤 바이블",
+    "en": "Japanese Freedom Bible"
+   },
+   "language": "ja",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/ja-freedom.sqlite",
+   "size": 18214912,
+   "gz_size": 4157710,
+   "sha256": "ff44fdf48fe5a06024bffa1905515d154f0364e4129f707b54353e48ab2877a1",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Japanese Freedom Bible (draft), eBible.org (Public Domain)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "ja-shinkaiyaku1965-nt",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "일본어 신개역 신약 (1965)",
+    "en": "New Japanese NT (Shinkaiyaku 1965)"
+   },
+   "language": "ja",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/ja-shinkaiyaku1965-nt.sqlite",
+   "size": 4575232,
+   "gz_size": 1101873,
+   "sha256": "b6dc883d66ae2170d2ae64b1f9786e1df40ad4db09ae4698af725261fd09bad8",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Shinkaiyaku Seisho Kankokai 1965, eBible.org (Public Domain)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "ko-1911",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "성경전서 (1911, 옛 한글)",
+    "en": "Korean Bible (1911)"
+   },
+   "language": "ko",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/ko-1911.sqlite",
+   "size": 8060928,
+   "gz_size": 3436167,
+   "sha256": "d8af7ea1eee520e49d5ba693d6888b95a1f76701cbf4f00a5176f441885d125b",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Korean Bible (1911) — Public Domain, eBible.org (kor)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "my-judson",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "저드슨 버마어 성경",
+    "en": "Judson Burmese Bible"
+   },
+   "language": "my",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/my-judson.sqlite",
+   "size": 13770752,
+   "gz_size": 2372964,
+   "sha256": "84b5f649d2073db25543a665e110c582b126e3337ef46b56f0b31cd2729f143f",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Judson Burmese Bible — Public Domain, eBible.org (myajvb)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "nl-1917",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "네덜란드어 성경 (1917)",
+    "en": "Dutch Bible (1917)"
+   },
+   "language": "nl",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/nl-1917.sqlite",
+   "size": 8077312,
+   "gz_size": 3541406,
+   "sha256": "e09246820e1d65a71ffb3b5cba8d1544b9761ea27c2c92eb6c73c026f16c1027",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Dutch Bible (1917) — Public Domain, eBible.org (nld)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "plan-philose-1y",
+   "type": "plan",
+   "version": "2026.10.16",
+   "title": {
+    "ko": "1년 1독 읽기표 (구약+신약)",
+    "en": "Bible in a Year (OT + NT)"
+   },
+   "language": "mul",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "plan/plan-philose-1y.sqlite",
+   "size": 45056,
+   "gz_size": 6396,
+   "sha256": "dcfdc3b53c33838f1372b86e8875164be4c167ccaea517808124987fe078771d",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "pt-bsl",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "세계 포르투갈어 성경",
+    "en": "World Portuguese Bible"
+   },
+   "language": "pt",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/pt-bsl.sqlite",
+   "size": 7733248,
+   "gz_size": 3436778,
+   "sha256": "a600061abd5be0d94f4a295d6b0bb4c166495a87768c9c0720fbc936c99ab785",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "World Portuguese Bible — Public Domain, eBible.org (porbrbsl)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "ru-synodal",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "러시아 시노달역",
+    "en": "Russian Synodal Bible"
+   },
+   "language": "ru",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/ru-synodal.sqlite",
+   "size": 9863168,
+   "gz_size": 3676553,
+   "sha256": "54e87760719248bc5214114b399de48234ea63b917a6bae83e45876d2e3ae7d1",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Russian Synodal Bible — Public Domain, eBible.org (russyn)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "th-freedom",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "태국어 프리덤 바이블",
+    "en": "Thai Freedom Bible"
+   },
+   "language": "th",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/th-freedom.sqlite",
+   "size": 12939264,
+   "gz_size": 2236903,
+   "sha256": "557a627b8ba13c91084c655f9aed304751b227c5ce27318cbe21a540a4fa9045",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Thai Freedom Bible — Public Domain, eBible.org (thafb)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "topics-nave",
+   "type": "topics",
+   "version": "2026.10.17.1",
+   "title": {
+    "ko": "Nave 주제 성구 사전",
+    "en": "Nave's Topical Bible"
+   },
+   "language": "ko",
+   "license": "Public Domain (Orville J. Nave, Nave's Topical Bible, 1896). 한국어 옮김: 필로세",
+   "distributable": true,
+   "file": "topics/topics-nave.sqlite",
+   "size": 6340608,
+   "gz_size": 3094278,
+   "sha256": "95488c0a93fe280fec21167c2cbe02305657397f4f21c350c94315554e9419f3",
+   "attribution": "Nave's Topical Bible — Orville J. Nave (1896), 공개 저작물. 원자료: CrossWire·CCEL. 주제·소주제 한국어 옮김은 필로세.",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "uk-kulish",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "쿨리시 역본 (1871)",
+    "en": "Ukrainian Bible (Kulish)"
+   },
+   "language": "uk",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/uk-kulish.sqlite",
+   "size": 9986048,
+   "gz_size": 3868902,
+   "sha256": "dd4de41dce3b506ca603777f918bc80b5c2325b7bb1c9aef62eacc22697e6909",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Ukrainian Bible (Kulish) — Public Domain, eBible.org (ukr1871)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "vi-1934",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "베트남어 성경 (1934)",
+    "en": "Vietnamese Bible (1934)"
+   },
+   "language": "vi",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/vi-1934.sqlite",
+   "size": 9084928,
+   "gz_size": 3638610,
+   "sha256": "90107072b88dc1c1234703892766e4b755a6d6a6ced76fa138d04618f6cf3002",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Vietnamese Bible (1934) — Public Domain, eBible.org (vie1934)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "wordhelp-en",
+   "type": "wordhelp",
+   "version": "2026.10.17.1",
+   "title": {
+    "ko": "영어 낱말 도우미",
+    "en": "English Word Helper"
+   },
+   "language": "en",
+   "license": "CC-BY-4.0",
+   "distributable": true,
+   "file": "wordhelp/wordhelp-en.sqlite",
+   "size": 3428352,
+   "gz_size": 1458644,
+   "sha256": "1515c1e5261937c346005bc90264e176a669f166b3eea8b8b64a3618c95926ba",
+   "attribution": "Open English WordNet 2025 (CC BY 4.0) · CMU Pronouncing Dictionary (BSD) · 옛 영어 풀이·한국어 뜻 필로세",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "wordhelp-zh",
+   "type": "wordhelp",
+   "version": "2026.10.17.1",
+   "title": {
+    "ko": "중국어 낱말 도우미",
+    "en": "Chinese Word Helper"
+   },
+   "language": "zh",
+   "license": "CC-BY-SA-4.0",
+   "distributable": true,
+   "file": "wordhelp/wordhelp-zh.sqlite",
+   "size": 2355200,
+   "gz_size": 1246308,
+   "sha256": "c04c8c91c4161011f0a4c83ea11ff38c3ebe96ca9bf6ab8bef086ffa7e11721c",
+   "attribution": "CC-CEDICT (MDBG, CC BY-SA 4.0) · Unihan (Unicode License)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "xref-openbible",
+   "type": "crossref",
+   "version": "2026.10.16",
+   "title": {
+    "ko": "관주 (OpenBible)",
+    "en": "Cross References (OpenBible.info)"
+   },
+   "language": "mul",
+   "license": "cc-by",
+   "distributable": true,
+   "file": "crossref/xref-openbible.sqlite",
+   "size": 13807616,
+   "gz_size": 4841508,
+   "sha256": "d0e8e28af41af8e94050465bad0fbd41c1bbecb71194ffc6045678b58d0de8d4",
+   "versification": "kjv",
+   "attribution": "Cross references from OpenBible.info (CC-BY), www.openbible.info",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "zh-cuv-s",
+   "type": "bible",
+   "version": "2026.10.16",
+   "title": {
+    "ko": "중국어 화합본 (간체)",
+    "en": "Chinese Union Version (Simplified)"
+   },
+   "language": "zh-Hans",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/zh-cuv-s.sqlite",
+   "size": 9351168,
+   "gz_size": 3191584,
+   "sha256": "88022c47a82c144b3b7966a9309e51504f8bc883efb69f26911345847a0a3ec8",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Chinese Union Version, eBible.org (Public Domain)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "zh-cuv-t",
+   "type": "bible",
+   "version": "2026.10.16",
+   "title": {
+    "ko": "중국어 화합본 (번체)",
+    "en": "Chinese Union Version (Traditional)"
+   },
+   "language": "zh-Hant",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/zh-cuv-t.sqlite",
+   "size": 9363456,
+   "gz_size": 3193333,
+   "sha256": "e3f08c13d01c42ba39f7b535050ad6165856f719106d9e4516e00c7b491a45af",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Chinese Union Version, eBible.org (Public Domain)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "zh-wcb",
+   "type": "bible",
+   "version": "2026.10.17",
+   "title": {
+    "ko": "세계 화어 성경 (간체)",
+    "en": "World Chinese Bible (Simplified)"
+   },
+   "language": "zh-Hans",
+   "license": "public-domain",
+   "distributable": true,
+   "file": "bible/zh-wcb.sqlite",
+   "size": 9924608,
+   "gz_size": 3324735,
+   "sha256": "1bcff87f5e200687eb662f8b1a16fdd25a139e9a99dd1d509c55f622d7b0d21c",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "World Chinese Bible (Simplified) — Public Domain, eBible.org (cmnswcb)",
+   "requires": [
+    "core"
+   ]
+  }
+ ]
+}
