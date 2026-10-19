@@ -5,7 +5,7 @@
    "ko": "필로세",
    "en": "Philose"
   },
-  "version": "0.1.0"
+  "version": "0.3.0"
  },
  "revoked_licenses": [],
  "language_packs": [
@@ -2252,6 +2252,52 @@
    "gz_size": 1156681,
    "sha256": "8298453e9c291cde17aefa03d001971910434ff763f4245d544d4529bd940c14",
    "attribution": "중국어 화합본 (Public Domain) · CC-CEDICT (CC BY-SA 4.0) · 한국어 뜻·고르기 필로세",
+   "requires": [
+    "core"
+   ],
+   "pack": "pro",
+   "encryption": "pack-v1"
+  },
+  {
+   "id": "vocab-grc",
+   "type": "vocab",
+   "version": "2026.10.19.1554",
+   "title": {
+    "ko": "성경 헬라어 단어장 (신약)",
+    "en": "Biblical Greek Vocabulary (NT)",
+    "zh": "圣经希腊语词汇 (新约)"
+   },
+   "language": "grc",
+   "license": "CC-BY-SA-4.0",
+   "distributable": true,
+   "file": "study/vocab-grc.sqlite",
+   "size": 1044480,
+   "gz_size": 284930,
+   "sha256": "b2ea58e4109663aab21e5740bdc2c69ce6f7fd722c16898fa9da735638be0f69",
+   "attribution": "SBLGNT · MorphGNT (CC BY-SA 4.0) · Strong 발음·영어 뜻 (Public Domain) · 한국어 뜻·고르기 필로세",
+   "requires": [
+    "core"
+   ],
+   "pack": "pro",
+   "encryption": "pack-v1"
+  },
+  {
+   "id": "vocab-hbo",
+   "type": "vocab",
+   "version": "2026.10.19.1554",
+   "title": {
+    "ko": "성경 히브리어 단어장 (구약)",
+    "en": "Biblical Hebrew Vocabulary (OT)",
+    "zh": "圣经希伯来语词汇 (旧约)"
+   },
+   "language": "hbo",
+   "license": "CC-BY-4.0",
+   "distributable": true,
+   "file": "study/vocab-hbo.sqlite",
+   "size": 3428352,
+   "gz_size": 802596,
+   "sha256": "19a31f0fa278f1586eac6a070e008ddbb75933ad33622f5079b1045cd9ea772c",
+   "attribution": "OSHB (CC BY 4.0) · Strong 발음·영어 뜻 (Public Domain) · 한국어 뜻·고르기 필로세",
    "requires": [
     "core"
    ],
