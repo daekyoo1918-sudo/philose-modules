@@ -1999,6 +1999,28 @@
    ]
   },
   {
+   "id": "library-pasteve",
+   "type": "library",
+   "version": "2026.10.19.1",
+   "title": {
+    "ko": "진리를 찾아서",
+    "en": "Seeking the Truth"
+   },
+   "language": "ko",
+   "license": "permission-granted",
+   "distributable": true,
+   "file": "library/library-pasteve.sqlite",
+   "size": 5353472,
+   "gz_size": 2307359,
+   "sha256": "3deb43840aebd43c6029350fd1bb44e7195e28a6d72104ed5b4f8db9b413dc2c",
+   "attribution": "pasteve.com (패스티브) — 운영자의 허락을 받아 실음",
+   "requires": [
+    "core"
+   ],
+   "pack": "pro",
+   "encryption": "pack-v1"
+  },
+  {
    "id": "my-judson",
    "type": "bible",
    "version": "2026.10.17",
