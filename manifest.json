@@ -2214,6 +2214,28 @@
    ]
   },
   {
+   "id": "vocab-bsb",
+   "type": "vocab",
+   "version": "2026.10.19.1",
+   "title": {
+    "ko": "성경 영어 단어장 (BSB)",
+    "en": "Bible English Vocabulary (BSB)"
+   },
+   "language": "en",
+   "license": "CC-BY-4.0",
+   "distributable": true,
+   "file": "study/vocab-bsb.sqlite",
+   "size": 4513792,
+   "gz_size": 1509521,
+   "sha256": "400d8140963820c18a85b29144e4aee27fcd0298436ded24a2b4032702d79e8e",
+   "attribution": "Berean Standard Bible (Public Domain) · Open English WordNet (CC BY 4.0) · CMU Pronouncing Dictionary (BSD) · 한국어 뜻·고르기 필로세",
+   "requires": [
+    "core"
+   ],
+   "pack": "pro",
+   "encryption": "pack-v1"
+  },
+  {
    "id": "wordhelp-en",
    "type": "wordhelp",
    "version": "2026.10.17.1",
