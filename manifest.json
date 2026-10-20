@@ -5,7 +5,7 @@
    "ko": "필로세",
    "en": "Philose"
   },
-  "version": "0.3.0"
+  "version": "0.3.2"
  },
  "revoked_licenses": [],
  "language_packs": [
@@ -2128,6 +2128,27 @@
    ]
   },
   {
+   "id": "summary-ko",
+   "type": "summary",
+   "version": "2026.10.20.0944",
+   "title": {
+    "ko": "필로세 장 요약",
+    "en": "Philose Chapter Summaries (Korean)",
+    "zh": "Philose 章节摘要 (韩语)"
+   },
+   "language": "ko",
+   "license": "© 필로세. 필로세 앱 안에서 자유롭게 사용.",
+   "distributable": true,
+   "file": "study/summary-ko.sqlite",
+   "size": 614400,
+   "gz_size": 197561,
+   "sha256": "74f7a7d858a39633e8e0863dda8314a46a508f2df50da111c1eb6cd233ef17c3",
+   "attribution": "장 요약 — 필로세 저작 (2026)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
    "id": "th-freedom",
    "type": "bible",
    "version": "2026.10.17",
@@ -2249,14 +2270,12 @@
    "distributable": true,
    "file": "study/vocab-cuv.sqlite",
    "size": 3022848,
-   "gz_size": 1156681,
+   "gz_size": 1156649,
    "sha256": "8298453e9c291cde17aefa03d001971910434ff763f4245d544d4529bd940c14",
    "attribution": "중국어 화합본 (Public Domain) · CC-CEDICT (CC BY-SA 4.0) · 한국어 뜻·고르기 필로세",
    "requires": [
     "core"
-   ],
-   "pack": "pro",
-   "encryption": "pack-v1"
+   ]
   },
   {
    "id": "vocab-grc",
@@ -2272,14 +2291,12 @@
    "distributable": true,
    "file": "study/vocab-grc.sqlite",
    "size": 1044480,
-   "gz_size": 284930,
+   "gz_size": 284898,
    "sha256": "b2ea58e4109663aab21e5740bdc2c69ce6f7fd722c16898fa9da735638be0f69",
    "attribution": "SBLGNT · MorphGNT (CC BY-SA 4.0) · Strong 발음·영어 뜻 (Public Domain) · 한국어 뜻·고르기 필로세",
    "requires": [
     "core"
-   ],
-   "pack": "pro",
-   "encryption": "pack-v1"
+   ]
   },
   {
    "id": "vocab-hbo",
