@@ -6,19 +6,19 @@
    "en": "Philose"
   },
   "notes": {
-   "ko": "0.3.6: 역본 찾기(niv·kjv처럼 이름·약칭으로 바로 고르기, 저작권 역본 안내), 소리 내어 읽기 소리 크기·절 반복(2번·3번)·읽기 음성 고르기(기기에서 가장 자연스러운 음성), 인도네시아어(TSI)·말레이어(신약) 성경과 단어장, 한인·인한·한말 대역.",
-   "en": "0.3.6: find a Bible version by name or abbreviation (niv, kjv…) with a notice for copyrighted versions; read-aloud volume, verse repeat (2× or 3×) and choice of the most natural voice on your device; Indonesian (TSI) and Malay (NT) Bibles and vocabulary lists; Korean–Indonesian and Korean–Malay parallel packs.",
-   "zh": "0.3.6：按名称或缩写查找译本（如 niv、kjv），并提示受版权限制的译本；朗读音量、每节重复（2 次或 3 次）及选择设备上最自然的语音；印尼语（TSI）和马来语（新约）圣经及词汇；韩印尼、韩马来对照。"
+   "ko": "0.3.7: 고품질 음성 팩(무료, 약 118MB) — 사람처럼 자연스럽게 읽어 주는 목소리 10가지(여성 5·남성 5), 한국어·영어·일본어·스페인어·독일어·프랑스어·인도네시아어 등, 기기 안에서 만들어 인터넷 없이. 설정 › 소리 내어 읽기 › 읽기 음성에서 받습니다. 정보 › 라이선스 추가. 영어·중국어 성경: 낱말을 한 번 누르면 뜻·발음기호·듣기(늘 켜짐), 두 번 누르면 그 절 전체 고르기.",
+   "en": "0.3.7: free high-quality voice pack (about 118 MB) — 10 natural, human-like voices (5 female, 5 male) for Korean, English, Japanese, Spanish, German, French, Indonesian and more, generated on your device without internet. Get it in Settings › Read aloud › Reading voice. Added About › Licenses. English and Chinese Bibles: click a word once for its meaning, pronunciation and audio (always on); double-click to select the whole verse.",
+   "zh": "0.3.7：免费高品质语音包（约 118 MB）——10 种如真人般自然的声音（女声 5、男声 5），支持韩语、英语、日语、西班牙语、德语、法语、印尼语等，在设备上生成，无需网络。在“设置 › 朗读 › 朗读语音”中下载。新增“关于 › 许可”。 英文和中文圣经：单击词语即显示释义、音标和发音（始终开启），双击选中整节。"
   },
-  "version": "0.3.6",
+  "version": "0.3.7",
   "windows": {
-   "url": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.6/Philose-Setup-0.3.6.exe",
-   "sha256": "e8f97dd702217e84b66673cb9c9ec03c9a038b2eccb09c08574c782ee7a388a8",
-   "size": 19546122
+   "url": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.7/Philose-Setup-0.3.7.exe",
+   "sha256": "9238d509438a4fcf169db185ad8fcda7a78b687d2cddf3055899469f5839cb96",
+   "size": 41166546
   },
   "downloads": {
    "android": "https://play.google.com/store/apps/details?id=kr.philose.app",
-   "windows": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.6/Philose-Setup-0.3.6.exe"
+   "windows": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.7/Philose-Setup-0.3.7.exe"
   }
  },
  "revoked_licenses": [],
@@ -2475,6 +2475,49 @@
    "gz_size": 730142,
    "sha256": "f83c45f6be289c3cd69e03d8bb23cb1bdf78f0d5086df438c268e61e683e2f45",
    "attribution": "예문: Alkitab Terjemahan Sederhana Indonesia (TSI) © 2021 Yayasan Alkitab BahasaKita (Albata) dan Pioneer Bible Translators International — CC BY-SA 4.0, eBible.org · 낱말 고르기·뜻 필로세 (CC BY-SA 4.0)",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "voice-supertonic",
+   "type": "voice",
+   "version": "2026.10.20.1648",
+   "title": {
+    "ko": "고품질 음성 (사람 같은 읽기)",
+    "en": "High-quality voice (natural reading)",
+    "zh": "高品质语音（自然朗读）"
+   },
+   "language": "mul",
+   "license": "OpenRAIL-M",
+   "distributable": true,
+   "file": "voice/voice-supertonic.sqlite",
+   "size": 69423104,
+   "gz_size": 58104737,
+   "sha256": "5bd9af301f55d4f3ffad8d85273fca7f248d1cc445c3e221566ae44084a5ed80",
+   "attribution": "Supertonic 3 © 2026 Supertone Inc. — 모델 BigScience OpenRAIL-M (사용 제한 포함, LICENSE), int8 변환 k2-fsa sherpa-onnx (Apache-2.0). AI로 만든 음성입니다.",
+   "requires": [
+    "core",
+    "voice-supertonic-ve"
+   ]
+  },
+  {
+   "id": "voice-supertonic-ve",
+   "type": "voice",
+   "version": "2026.10.20.1648",
+   "title": {
+    "ko": "고품질 음성 (2/2)",
+    "en": "High-quality voice (2/2)",
+    "zh": "高品质语音（2/2）"
+   },
+   "language": "mul",
+   "license": "OpenRAIL-M",
+   "distributable": true,
+   "file": "voice/voice-supertonic-ve.sqlite",
+   "size": 78495744,
+   "gz_size": 66803101,
+   "sha256": "8a63a2edfd0031570f2666e193f9f8fe2706a1123d94fa320c6b26395337201f",
+   "attribution": "Supertonic 3 © 2026 Supertone Inc. — 모델 BigScience OpenRAIL-M (사용 제한 포함, LICENSE), int8 변환 k2-fsa sherpa-onnx (Apache-2.0). AI로 만든 음성입니다.",
    "requires": [
     "core"
    ]
