@@ -6,19 +6,19 @@
    "en": "Philose"
   },
   "notes": {
-   "ko": "0.3.4: 공개 설치 파일은 앱만 담고 자료는 서명된 서버에서 받음(저작권 허락이 필요한 자료는 넣지 않음 — 파일 가져오기로), 누리집 www.philose.com·문의 admin@philose.com. 0.3.3: 장 요약, 안정성·보안, Windows 앱 안 업데이트, 내 성경 가져오기.",
-   "en": "0.3.4: the public installer contains only the app; resources download from the signed server (no rights-restricted content — use Import file). Website www.philose.com, contact admin@philose.com. 0.3.3: chapter summaries, stability and security, in-app Windows updates, import your own Bible.",
-   "zh": "0.3.4：公开安装包只含应用，资料从已签名服务器下载（不含需授权的资料——请用“导入文件”）。网站 www.philose.com，联系 admin@philose.com。0.3.3：章节摘要、稳定与安全、Windows 应用内更新、导入自己的圣经。"
+   "ko": "0.3.5: 업데이트·가져오기 진행 표시와 성공 안내(무엇이 몇 판에서 몇 판으로 바뀌었는지), 최근 업데이트 기록, 모듈 파일 여러 개를 zip 하나로 가져오기, 영어 낱말 카드 발음기호 고침.",
+   "en": "0.3.5: progress and success messages for updates and imports (what changed, from which version to which), recent update history, import several module files from one zip, English word card pronunciation fix.",
+   "zh": "0.3.5：更新与导入的进度显示和成功提示（显示哪些资料从哪个版本更新到哪个版本）、最近更新记录、用一个 zip 导入多个模块文件、修正英语单词卡发音。"
   },
-  "version": "0.3.4",
+  "version": "0.3.5",
   "windows": {
-   "url": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.4/Philose-Setup-0.3.4.exe",
-   "sha256": "02e602a66f8624e34804601b06111ec5c01c480ae11ef63de1e4c881cdd81511",
-   "size": 19476070
+   "url": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.5/Philose-Setup-0.3.5.exe",
+   "sha256": "734c8514886ec5f5d0787205eb5917033163af8016fb6573d1f0afa1afe7a456",
+   "size": 19506570
   },
   "downloads": {
    "android": "https://play.google.com/store/apps/details?id=kr.philose.app",
-   "windows": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.4/Philose-Setup-0.3.4.exe"
+   "windows": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.5/Philose-Setup-0.3.5.exe"
   }
  },
  "revoked_licenses": [],
