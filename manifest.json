@@ -5,7 +5,21 @@
    "ko": "필로세",
    "en": "Philose"
   },
-  "version": "0.3.2"
+  "notes": {
+   "ko": "0.3.3: 장 요약(1189장), 안정성·보안 개선 — 시작 오류 안내와 설정 자동 복구, 인터넷이 느릴 때 멈추지 않음, 자료 목록 전자 서명 확인, Windows 앱 안에서 바로 업데이트, 노트 보안, 안드로이드 백업·읽어 주기 고침.",
+   "en": "0.3.3: chapter summaries (1,189 chapters); stability and security — startup error screen and settings recovery, no hangs on slow networks, signed resource list, in-app updates on Windows, safer notes, Android backup and read-aloud fixes.",
+   "zh": "0.3.3：章节摘要（1189章）；稳定性与安全改进——启动错误提示与设置自动恢复、网络缓慢时不再卡住、资料清单电子签名验证、Windows 应用内直接更新、笔记安全、安卓备份与朗读修复。"
+  },
+  "version": "0.3.3",
+  "windows": {
+   "url": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.3/Philose-Setup-0.3.3.exe",
+   "sha256": "de22dbe68c98743cf13609ab7fc545708157af2dd2a1fb16ded7718c537ff190",
+   "size": 312400054
+  },
+  "downloads": {
+   "android": "https://play.google.com/store/apps/details?id=kr.philose.app",
+   "windows": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.3/Philose-Setup-0.3.3.exe"
+  }
  },
  "revoked_licenses": [],
  "language_packs": [
@@ -2447,6 +2461,140 @@
    "requires": [
     "core"
    ]
+  }
+ ],
+ "rights_required": [
+  {
+   "id": "comm-calvin",
+   "type": "commentary",
+   "title": {
+    "ko": "칼빈 주석",
+    "en": "칼빈 주석",
+    "zh": "加尔文注释"
+   },
+   "holder": "「내 사랑하는 책」 원 제작사·번역자",
+   "note": "번역 저작권 허락이 필요합니다."
+  },
+  {
+   "id": "comm-jusuk-e",
+   "type": "commentary",
+   "title": {
+    "ko": "영문 주석 1",
+    "en": "영문 주석 1",
+    "zh": "英文注释 1"
+   },
+   "holder": "「내 사랑하는 책」 원 제작사",
+   "note": "저작권 허락이 필요합니다."
+  },
+  {
+   "id": "dict-bible-ko",
+   "type": "dictionary",
+   "title": {
+    "ko": "성경 사전",
+    "en": "Bible Dictionary (Korean)",
+    "zh": "圣经辞典 (韩文)"
+   },
+   "holder": "「내 사랑하는 책」 원 제작사",
+   "note": "저작권 허락이 필요합니다."
+  },
+  {
+   "id": "dict-en-ko",
+   "type": "dictionary",
+   "title": {
+    "ko": "영한 사전",
+    "en": "English-Korean Dictionary",
+    "zh": "英韩词典"
+   },
+   "holder": "「내 사랑하는 책」 원 제작사",
+   "note": "저작권 허락이 필요합니다."
+  },
+  {
+   "id": "ko-krv",
+   "type": "bible",
+   "title": {
+    "ko": "개역한글",
+    "en": "Korean Revised Version",
+    "zh": "韩文改译本"
+   },
+   "holder": "대한성서공회",
+   "note": "사용 허락(계약)이 필요합니다. 공개 저작물인 1911 성경전서(ko-1911)를 대신 쓸 수 있습니다."
+  },
+  {
+   "id": "lex-strongs",
+   "type": "lexicon",
+   "title": {
+    "ko": "스트롱 원어 사전",
+    "en": "Strong's Dictionary",
+    "zh": "斯特朗原文词典"
+   },
+   "holder": "「내 사랑하는 책」 원 제작사",
+   "note": "스트롱 원문은 공개 저작물이지만 한국어 정의는 허락이 필요합니다."
+  },
+  {
+   "id": "plan-mbook-ko",
+   "type": "plan",
+   "title": {
+    "ko": "주제 색인·오늘의 말씀·읽기표",
+    "en": "Topics & Plans",
+    "zh": "主题索引·今日经文·读经表"
+   },
+   "holder": "「내 사랑하는 책」 원 제작사",
+   "note": "대신 쓸 수 있는 읽기표: 필로세 1년 읽기표(plan-philose-1y)."
+  },
+  {
+   "id": "xref-mbook",
+   "type": "crossref",
+   "title": {
+    "ko": "관주",
+    "en": "Cross References",
+    "zh": "串珠"
+   },
+   "holder": "「내 사랑하는 책」 원 제작사",
+   "note": "대신 쓸 수 있는 관주: OpenBible 관주(xref-openbible)."
+  },
+  {
+   "id": "niv",
+   "type": "bible",
+   "title": {
+    "ko": "NIV (New International Version)",
+    "en": "NIV (New International Version)",
+    "zh": "NIV 新国际版"
+   },
+   "holder": "Biblica · HarperCollins · Hodder & Stoughton",
+   "note": "직접 구입·허락받은 파일을 '내 성경 가져오기'로 가져와 개인적으로 읽을 수 있습니다."
+  },
+  {
+   "id": "ko-rnksv",
+   "type": "bible",
+   "title": {
+    "ko": "개역개정",
+    "en": "Korean Revised Version (New)",
+    "zh": "韩文改译改订本"
+   },
+   "holder": "대한성서공회",
+   "note": "직접 구입·허락받은 파일을 '내 성경 가져오기'로 가져와 개인적으로 읽을 수 있습니다."
+  },
+  {
+   "id": "ko-rnkv",
+   "type": "bible",
+   "title": {
+    "ko": "새번역",
+    "en": "Korean New Translation",
+    "zh": "韩文新译本"
+   },
+   "holder": "대한성서공회",
+   "note": "직접 구입·허락받은 파일을 '내 성경 가져오기'로 가져와 개인적으로 읽을 수 있습니다."
+  },
+  {
+   "id": "esv",
+   "type": "bible",
+   "title": {
+    "ko": "ESV (English Standard Version)",
+    "en": "ESV (English Standard Version)",
+    "zh": "ESV 英文标准版"
+   },
+   "holder": "Crossway",
+   "note": "직접 구입·허락받은 파일을 '내 성경 가져오기'로 가져와 개인적으로 읽을 수 있습니다."
   }
  ]
 }
