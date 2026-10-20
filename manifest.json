@@ -6,19 +6,19 @@
    "en": "Philose"
   },
   "notes": {
-   "ko": "0.3.3: 장 요약(1189장), 안정성·보안 개선 — 시작 오류 안내와 설정 자동 복구, 인터넷이 느릴 때 멈추지 않음, 자료 목록 전자 서명 확인, Windows 앱 안에서 바로 업데이트, 노트 보안, 안드로이드 백업·읽어 주기 고침.",
-   "en": "0.3.3: chapter summaries (1,189 chapters); stability and security — startup error screen and settings recovery, no hangs on slow networks, signed resource list, in-app updates on Windows, safer notes, Android backup and read-aloud fixes.",
-   "zh": "0.3.3：章节摘要（1189章）；稳定性与安全改进——启动错误提示与设置自动恢复、网络缓慢时不再卡住、资料清单电子签名验证、Windows 应用内直接更新、笔记安全、安卓备份与朗读修复。"
+   "ko": "0.3.4: 공개 설치 파일은 앱만 담고 자료는 서명된 서버에서 받음(저작권 허락이 필요한 자료는 넣지 않음 — 파일 가져오기로), 누리집 www.philose.com·문의 admin@philose.com. 0.3.3: 장 요약, 안정성·보안, Windows 앱 안 업데이트, 내 성경 가져오기.",
+   "en": "0.3.4: the public installer contains only the app; resources download from the signed server (no rights-restricted content — use Import file). Website www.philose.com, contact admin@philose.com. 0.3.3: chapter summaries, stability and security, in-app Windows updates, import your own Bible.",
+   "zh": "0.3.4：公开安装包只含应用，资料从已签名服务器下载（不含需授权的资料——请用“导入文件”）。网站 www.philose.com，联系 admin@philose.com。0.3.3：章节摘要、稳定与安全、Windows 应用内更新、导入自己的圣经。"
   },
-  "version": "0.3.3",
+  "version": "0.3.4",
   "windows": {
-   "url": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.3/Philose-Setup-0.3.3.exe",
-   "sha256": "de22dbe68c98743cf13609ab7fc545708157af2dd2a1fb16ded7718c537ff190",
-   "size": 312400054
+   "url": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.4/Philose-Setup-0.3.4.exe",
+   "sha256": "02e602a66f8624e34804601b06111ec5c01c480ae11ef63de1e4c881cdd81511",
+   "size": 19476070
   },
   "downloads": {
    "android": "https://play.google.com/store/apps/details?id=kr.philose.app",
-   "windows": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.3/Philose-Setup-0.3.3.exe"
+   "windows": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.4/Philose-Setup-0.3.4.exe"
   }
  },
  "revoked_licenses": [],
