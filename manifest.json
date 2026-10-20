@@ -6,19 +6,19 @@
    "en": "Philose"
   },
   "notes": {
-   "ko": "0.3.5: 업데이트·가져오기 진행 표시와 성공 안내(무엇이 몇 판에서 몇 판으로 바뀌었는지), 최근 업데이트 기록, 모듈 파일 여러 개를 zip 하나로 가져오기, 영어 낱말 카드 발음기호 고침.",
-   "en": "0.3.5: progress and success messages for updates and imports (what changed, from which version to which), recent update history, import several module files from one zip, English word card pronunciation fix.",
-   "zh": "0.3.5：更新与导入的进度显示和成功提示（显示哪些资料从哪个版本更新到哪个版本）、最近更新记录、用一个 zip 导入多个模块文件、修正英语单词卡发音。"
+   "ko": "0.3.6: 역본 찾기(niv·kjv처럼 이름·약칭으로 바로 고르기, 저작권 역본 안내), 소리 내어 읽기 소리 크기·절 반복(2번·3번)·읽기 음성 고르기(기기에서 가장 자연스러운 음성), 인도네시아어(TSI)·말레이어(신약) 성경과 단어장, 한인·인한·한말 대역.",
+   "en": "0.3.6: find a Bible version by name or abbreviation (niv, kjv…) with a notice for copyrighted versions; read-aloud volume, verse repeat (2× or 3×) and choice of the most natural voice on your device; Indonesian (TSI) and Malay (NT) Bibles and vocabulary lists; Korean–Indonesian and Korean–Malay parallel packs.",
+   "zh": "0.3.6：按名称或缩写查找译本（如 niv、kjv），并提示受版权限制的译本；朗读音量、每节重复（2 次或 3 次）及选择设备上最自然的语音；印尼语（TSI）和马来语（新约）圣经及词汇；韩印尼、韩马来对照。"
   },
-  "version": "0.3.5",
+  "version": "0.3.6",
   "windows": {
-   "url": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.5/Philose-Setup-0.3.5.exe",
-   "sha256": "734c8514886ec5f5d0787205eb5917033163af8016fb6573d1f0afa1afe7a456",
-   "size": 19506570
+   "url": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.6/Philose-Setup-0.3.6.exe",
+   "sha256": "e8f97dd702217e84b66673cb9c9ec03c9a038b2eccb09c08574c782ee7a388a8",
+   "size": 19546122
   },
   "downloads": {
    "android": "https://play.google.com/store/apps/details?id=kr.philose.app",
-   "windows": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.5/Philose-Setup-0.3.5.exe"
+   "windows": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.6/Philose-Setup-0.3.6.exe"
   }
  },
  "revoked_licenses": [],
@@ -243,6 +243,28 @@
     "grc-sblgnt",
     "grc-tr"
    ]
+  },
+  {
+   "language": "id",
+   "name": {
+    "ko": "인도네시아어",
+    "en": "Indonesian",
+    "zh": "印尼语"
+   },
+   "modules": [
+    "id-tsi"
+   ]
+  },
+  {
+   "language": "ms",
+   "name": {
+    "ko": "말레이어",
+    "en": "Malay",
+    "zh": "马来语"
+   },
+   "modules": [
+    "ms-kszi"
+   ]
   }
  ],
  "bilingual_packs": [
@@ -388,6 +410,42 @@
    "modules": [
     "ko-1911",
     "ru-synodal"
+   ]
+  },
+  {
+   "id": "ko-id",
+   "name": {
+    "ko": "한인 (1911 + 인도네시아어 TSI)",
+    "en": "Korean–Indonesian (1911 + TSI)",
+    "zh": "韩印尼对照 (1911 韩文译本 + TSI)"
+   },
+   "modules": [
+    "ko-1911",
+    "id-tsi"
+   ]
+  },
+  {
+   "id": "id-ko",
+   "name": {
+    "ko": "인한 (인도네시아어 TSI + 1911)",
+    "en": "Indonesian–Korean (TSI + 1911)",
+    "zh": "印尼韩对照 (TSI + 1911 韩文译本)"
+   },
+   "modules": [
+    "id-tsi",
+    "ko-1911"
+   ]
+  },
+  {
+   "id": "ko-ms",
+   "name": {
+    "ko": "한말 (1911 + 말레이어 신약)",
+    "en": "Korean–Malay (1911 + Malay NT)",
+    "zh": "韩马来对照 (1911 韩文译本 + 马来语新约)"
+   },
+   "modules": [
+    "ko-1911",
+    "ms-kszi"
    ]
   },
   {
@@ -1903,6 +1961,28 @@
    ]
   },
   {
+   "id": "id-tsi",
+   "type": "bible",
+   "version": "2026.10.20.1602",
+   "title": {
+    "ko": "인도네시아어 쉬운 번역 (TSI)",
+    "en": "Terjemahan Sederhana Indonesia (TSI)"
+   },
+   "language": "id",
+   "license": "CC-BY-SA-4.0",
+   "distributable": true,
+   "file": "bible/id-tsi.sqlite",
+   "size": 6373376,
+   "gz_size": 2655997,
+   "sha256": "b88afabf2678eb354456b9cfdaa943f68e26cc72b2e1a5d88ebc7675b729d47b",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Alkitab Terjemahan Sederhana Indonesia (TSI) © 2021 Yayasan Alkitab BahasaKita (Albata) dan Pioneer Bible Translators International — CC BY-SA 4.0, eBible.org (ind). 구약은 21권만 번역됨",
+   "requires": [
+    "core"
+   ]
+  },
+  {
    "id": "it-diodati",
    "type": "bible",
    "version": "2026.10.17",
@@ -2033,6 +2113,28 @@
    ],
    "pack": "pro",
    "encryption": "pack-v1"
+  },
+  {
+   "id": "ms-kszi",
+   "type": "bible",
+   "version": "2026.10.20.1602",
+   "title": {
+    "ko": "말레이어 자부르·인질 (신약)",
+    "en": "Kitab Suci Zabur dan Injil (Malay NT)"
+   },
+   "language": "ms",
+   "license": "CC-BY-ND-4.0",
+   "distributable": true,
+   "file": "bible/ms-kszi.sqlite",
+   "size": 1970176,
+   "gz_size": 828649,
+   "sha256": "1af0fd8d5702473295a4583d041ddde431acf433570dcba2e016d4a7c4831551",
+   "versification": "kjv",
+   "direction": "ltr",
+   "attribution": "Kitab Suci Zabur dan Injil © 2013 Pengamat Kitab Mulia — CC BY-ND 4.0, eBible.org (zlmKSZI). 본문은 고치지 않음",
+   "requires": [
+    "core"
+   ]
   },
   {
    "id": "my-judson",
@@ -2334,6 +2436,48 @@
    ],
    "pack": "pro",
    "encryption": "pack-v1"
+  },
+  {
+   "id": "vocab-kszi",
+   "type": "vocab",
+   "version": "2026.10.20.1614",
+   "title": {
+    "ko": "성경 말레이어 단어장 (신약)",
+    "en": "Bible Malay Vocabulary (NT)",
+    "zh": "圣经马来语词汇 (新约)"
+   },
+   "language": "ms",
+   "license": "CC-BY-ND-4.0",
+   "distributable": true,
+   "file": "study/vocab-kszi.sqlite",
+   "size": 712704,
+   "gz_size": 243110,
+   "sha256": "acc686efb2d24cfce06825f8fe094aa885eda227ce9558ba2b2c007bcf8c8bef",
+   "attribution": "예문: Kitab Suci Zabur dan Injil © 2013 Pengamat Kitab Mulia — CC BY-ND 4.0, eBible.org (본문은 고치지 않음) · 낱말 고르기·뜻 필로세",
+   "requires": [
+    "core"
+   ]
+  },
+  {
+   "id": "vocab-tsi",
+   "type": "vocab",
+   "version": "2026.10.20.1613",
+   "title": {
+    "ko": "성경 인도네시아어 단어장 (TSI)",
+    "en": "Bible Indonesian Vocabulary (TSI)",
+    "zh": "圣经印尼语词汇 (TSI)"
+   },
+   "language": "id",
+   "license": "CC-BY-SA-4.0",
+   "distributable": true,
+   "file": "study/vocab-tsi.sqlite",
+   "size": 2424832,
+   "gz_size": 730142,
+   "sha256": "f83c45f6be289c3cd69e03d8bb23cb1bdf78f0d5086df438c268e61e683e2f45",
+   "attribution": "예문: Alkitab Terjemahan Sederhana Indonesia (TSI) © 2021 Yayasan Alkitab BahasaKita (Albata) dan Pioneer Bible Translators International — CC BY-SA 4.0, eBible.org · 낱말 고르기·뜻 필로세 (CC BY-SA 4.0)",
+   "requires": [
+    "core"
+   ]
   },
   {
    "id": "wordhelp-en",
