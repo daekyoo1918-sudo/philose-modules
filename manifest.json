@@ -6,9 +6,9 @@
    "en": "Philose"
   },
   "notes": {
-   "ko": "0.3.26: Windows 제거 기능을 강화했습니다. 필로세를 삭제하면 프로그램 파일, 바로가기, 책갈피·메모·읽기 기록·설정·라이선스 정보, 받은 성경·사전 자료와 필로세 전용 임시 파일까지 깔끔하게 제거됩니다.",
-   "en": "0.3.26: improved Windows uninstallation. Removing Philose now cleans up program files, shortcuts, bookmarks, notes, reading history, settings, license data, downloaded Bible and dictionary modules, and Philose-specific temporary files.",
-   "zh": "0.3.26：增强 Windows 卸载功能。卸载 Philose 时会清理程序文件、快捷方式、书签、笔记、阅读记录、设置、许可证信息、已下载的圣经和词典资料以及 Philose 专用临时文件。"
+   "ko": "0.3.26: Windows 설치 마법사에 언어·지역·이름·이메일·설치 위치 설정을 추가하고 제거 기능을 강화했습니다.",
+   "en": "0.3.26: added language, region, name, email, and installation-folder steps to the Windows setup wizard, and improved uninstallation cleanup.",
+   "zh": "0.3.26：Windows 安装向导新增语言、地区、姓名、电子邮件和安装位置设置，并增强卸载清理功能。"
   },
   "downloads": {
    "windows": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.26.exe",
@@ -17,8 +17,8 @@
   "version": "0.3.26",
   "windows": {
    "url": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.26.exe",
-   "sha256": "75738a5e5da0cec90a3b594eaf39355d60f24ba760fd54047b79e6329fd80aa5",
-   "size": 50902334
+   "sha256": "b1da9c415f8125260089aead542735f04d83794e62296a20d3664afd31a1b519",
+   "size": 50903678
   }
  },
  "revoked_licenses": [],
