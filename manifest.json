@@ -6,19 +6,19 @@
    "en": "Philose"
   },
   "notes": {
-   "ko": "0.3.7: 고품질 음성 팩(무료, 약 118MB) — 사람처럼 자연스럽게 읽어 주는 목소리 10가지(여성 5·남성 5), 한국어·영어·일본어·스페인어·독일어·프랑스어·인도네시아어 등, 기기 안에서 만들어 인터넷 없이. 설정 › 소리 내어 읽기 › 읽기 음성에서 받습니다. 정보 › 라이선스 추가. 영어·중국어 성경: 낱말을 한 번 누르면 뜻·발음기호·듣기(늘 켜짐), 두 번 누르면 그 절 전체 고르기.",
-   "en": "0.3.7: free high-quality voice pack (about 118 MB) — 10 natural, human-like voices (5 female, 5 male) for Korean, English, Japanese, Spanish, German, French, Indonesian and more, generated on your device without internet. Get it in Settings › Read aloud › Reading voice. Added About › Licenses. English and Chinese Bibles: click a word once for its meaning, pronunciation and audio (always on); double-click to select the whole verse.",
-   "zh": "0.3.7：免费高品质语音包（约 118 MB）——10 种如真人般自然的声音（女声 5、男声 5），支持韩语、英语、日语、西班牙语、德语、法语、印尼语等，在设备上生成，无需网络。在“设置 › 朗读 › 朗读语音”中下载。新增“关于 › 许可”。 英文和中文圣经：单击词语即显示释义、音标和发音（始终开启），双击选中整节。"
-  },
-  "version": "0.3.7",
-  "windows": {
-   "url": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.7/Philose-Setup-0.3.7.exe",
-   "sha256": "9238d509438a4fcf169db185ad8fcda7a78b687d2cddf3055899469f5839cb96",
-   "size": 41166546
+   "ko": "0.3.25: philose.com 자동 업데이트 연결을 복구했습니다. 업데이트 버튼에서 Windows 설치 파일을 안전하게 내려받아 검증한 뒤 바로 설치합니다. 회원가입 평가판 키 인식, 문의 게시판 연결, 선택형 익명 오류 보고 기능을 보완했습니다.",
+   "en": "0.3.25: restored automatic updates through philose.com. The Windows installer is downloaded, verified, and launched directly from the update button. Trial-key recognition, inquiry access, and opt-in anonymous error reporting were improved.",
+   "zh": "0.3.25：恢复通过 philose.com 自动更新。更新按钮会下载、校验并直接启动 Windows 安装程序，同时改进试用密钥识别、咨询入口和自愿匿名错误报告。"
   },
   "downloads": {
-   "android": "https://play.google.com/store/apps/details?id=kr.philose.app",
-   "windows": "https://github.com/daekyoo1918-sudo/philose-modules/releases/download/v0.3.7/Philose-Setup-0.3.7.exe"
+   "windows": "https://philose.com/updates/Philose-Setup-0.3.25.exe",
+   "android": "https://play.google.com/store/apps/details?id=kr.philose.app"
+  },
+  "version": "0.3.25",
+  "windows": {
+   "url": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.25.exe",
+   "sha256": "808a77d24df469c99eea53f246af071d729afa41d000d0b3aea6173cbf1500fc",
+   "size": 50902212
   }
  },
  "revoked_licenses": [],
