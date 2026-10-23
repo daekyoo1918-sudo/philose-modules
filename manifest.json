@@ -11,7 +11,7 @@
    "zh": "0.3.25：恢复通过 philose.com 自动更新。更新按钮会下载、校验并直接启动 Windows 安装程序，同时改进试用密钥识别、咨询入口和自愿匿名错误报告。"
   },
   "downloads": {
-   "windows": "https://philose.com/updates/Philose-Setup-0.3.25.exe",
+   "windows": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.25.exe",
    "android": "https://play.google.com/store/apps/details?id=kr.philose.app"
   },
   "version": "0.3.25",
