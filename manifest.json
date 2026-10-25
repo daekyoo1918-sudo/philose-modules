@@ -7,19 +7,19 @@
   },
   "min_version": "0.3.27",
   "notes": {
-   "ko": "0.3.27: 4-4-4-4 라이선스 입력 화면과 관리자용 키 활성화를 지원하며, 기존 설치본을 유지한 채 자동 업데이트합니다.",
-   "en": "0.3.27: supports segmented 4-4-4-4 license entry and administrator-key activation, with in-place updates over existing installations.",
-   "zh": "0.3.27：支持分段式 4-4-4-4 许可证输入和管理员密钥激活，并可在保留现有安装的情况下自动更新。"
+   "ko": "0.3.28: 빈 4칸 라이선스 입력 화면과 명확한 등록 완료·라이선스 유형 안내를 제공합니다.",
+   "en": "0.3.28: provides four empty license-entry fields and clearer activation and license-type confirmation.",
+   "zh": "0.3.28：提供四个空白许可证输入框，并清楚显示注册成功及许可证类型。"
   },
   "downloads": {
    "android": "https://play.google.com/store/apps/details?id=kr.philose.app",
-   "windows": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.27.exe"
+   "windows": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.28.exe"
   },
-  "version": "0.3.27",
+  "version": "0.3.28",
   "windows": {
-   "url": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.27.exe",
-   "sha256": "cda6cf8e7208cb713aa9086807f56066df431ad63fa6c2e9596f292c548eef03",
-   "size": 50906362
+   "url": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.28.exe",
+   "sha256": "ff6f9970aef5138f788bae542d1205af88ab7c824aee8475b342cb69df6c4747",
+   "size": 50906143
   }
  },
  "revoked_licenses": [],
