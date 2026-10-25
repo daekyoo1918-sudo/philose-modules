@@ -1,0 +1,22 @@
+{
+  "name": {
+    "ko": "필로세 무료 성경팩",
+    "en": "Philose Free Bible Pack"
+  },
+  "version": "0.3.29",
+  "created": "2026-10-25",
+  "module_count": 43,
+  "language_count": 22,
+  "parts": [
+    {
+      "file": "Philose-Free-Bible-Pack-0.3.29-Part1.zip",
+      "modules": 26,
+      "bytes": 91941096
+    },
+    {
+      "file": "Philose-Free-Bible-Pack-0.3.29-Part2.zip",
+      "modules": 17,
+      "bytes": 51961024
+    }
+  ]
+}
