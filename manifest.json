@@ -5,20 +5,21 @@
    "ko": "필로세",
    "en": "Philose"
   },
+  "min_version": "0.3.27",
   "notes": {
-   "ko": "0.3.26: Windows 설치 마법사에 언어·지역·이름·이메일·설치 위치 설정을 추가하고 제거 기능과 웹 라이선스 활성화를 강화했습니다.",
-   "en": "0.3.26: added language, region, name, email, and installation-folder steps to the Windows setup wizard, improved uninstallation cleanup, and enabled web license activation.",
-   "zh": "0.3.26：Windows 安装向导新增语言、地区、姓名、电子邮件和安装位置设置，增强卸载清理，并启用网络许可证激活。"
+   "ko": "0.3.27: 4-4-4-4 라이선스 입력 화면과 관리자용 키 활성화를 지원하며, 기존 설치본을 유지한 채 자동 업데이트합니다.",
+   "en": "0.3.27: supports segmented 4-4-4-4 license entry and administrator-key activation, with in-place updates over existing installations.",
+   "zh": "0.3.27：支持分段式 4-4-4-4 许可证输入和管理员密钥激活，并可在保留现有安装的情况下自动更新。"
   },
   "downloads": {
    "android": "https://play.google.com/store/apps/details?id=kr.philose.app",
-   "windows": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.26.exe"
+   "windows": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.27.exe"
   },
-  "version": "0.3.26",
+  "version": "0.3.27",
   "windows": {
-   "url": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.26.exe",
-   "sha256": "9af2612498b511f9f8b7ad21dd932a80108e1d254ed16f445a1420ae4f349f4d",
-   "size": 50906062
+   "url": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.27.exe",
+   "sha256": "cda6cf8e7208cb713aa9086807f56066df431ad63fa6c2e9596f292c548eef03",
+   "size": 50906362
   }
  },
  "revoked_licenses": [],
