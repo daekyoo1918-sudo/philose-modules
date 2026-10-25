@@ -7,19 +7,19 @@
   },
   "min_version": "0.3.27",
   "notes": {
-   "ko": "0.3.29: 성경을 언어별로 쉽게 찾고, 영어 아래에서 영문 역본을 선택하며, 성경 읽기 배경을 설정할 수 있습니다. 무료 성경팩과 국가별 외부 접속 통계도 추가했습니다.",
-   "en": "0.3.29: browse Bibles by language, find English versions under English, choose a reading background, and use the free Bible pack. Country-level external visit statistics are also available to administrators.",
-   "zh": "0.3.29：可按语言查找圣经、在英语分类中选择英文版本、设置阅读背景，并使用免费圣经包；管理员还可查看各国家/地区的外部访问统计。"
+   "ko": "0.3.30: 다운로드한 .philosepack 자료팩을 더블클릭해 설치할 수 있습니다. 실행 중인 앱으로 자료팩이 안전하게 전달되며, 홈의 오늘 학습은 간결해지고 전용 학습 화면에 큰 달력과 국가별 공휴일이 표시됩니다. 새 버전 설치 시 실행 중인 구버전을 닫고 업데이트합니다.",
+   "en": "0.3.30: install downloaded .philosepack resource packs by double-clicking. Packs are forwarded safely to a running app. Daily learning now has a compact home preview and a dedicated page with a larger calendar and country-specific public holidays. Installing a newer version closes the running older version before updating.",
+   "zh": "0.3.30：双击下载的 .philosepack 资料包即可安装；资料包可安全传递给正在运行的应用。首页每日学习改为精简预览，独立学习页提供更大的日历和按国家显示的公共假日。安装新版本时会先关闭正在运行的旧版本。"
   },
   "downloads": {
-   "windows": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.29.exe",
+   "windows": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.30.exe",
    "android": "https://play.google.com/store/apps/details?id=kr.philose.app"
   },
-  "version": "0.3.29",
+  "version": "0.3.30",
   "windows": {
-   "url": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.29.exe",
-   "sha256": "2459db5e92647efc1a7f8557048f12d9aa484a12300a079c6139b8cfe3a011e9",
-   "size": 50909146
+   "url": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.30.exe",
+   "sha256": "deb99bd94f6d9b9f4706823e25aad992e31acf601538c5189e93e624d08ce1b1",
+   "size": 50926367
   }
  },
  "revoked_licenses": [],
