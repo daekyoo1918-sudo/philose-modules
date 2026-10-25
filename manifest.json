@@ -6,19 +6,19 @@
    "en": "Philose"
   },
   "notes": {
-   "ko": "0.3.26: Windows 설치 마법사에 언어·지역·이름·이메일·설치 위치 설정을 추가하고 제거 기능을 강화했습니다.",
-   "en": "0.3.26: added language, region, name, email, and installation-folder steps to the Windows setup wizard, and improved uninstallation cleanup.",
-   "zh": "0.3.26：Windows 安装向导新增语言、地区、姓名、电子邮件和安装位置设置，并增强卸载清理功能。"
+   "ko": "0.3.26: Windows 설치 마법사에 언어·지역·이름·이메일·설치 위치 설정을 추가하고 제거 기능과 웹 라이선스 활성화를 강화했습니다.",
+   "en": "0.3.26: added language, region, name, email, and installation-folder steps to the Windows setup wizard, improved uninstallation cleanup, and enabled web license activation.",
+   "zh": "0.3.26：Windows 安装向导新增语言、地区、姓名、电子邮件和安装位置设置，增强卸载清理，并启用网络许可证激活。"
   },
   "downloads": {
-   "windows": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.26.exe",
-   "android": "https://play.google.com/store/apps/details?id=kr.philose.app"
+   "android": "https://play.google.com/store/apps/details?id=kr.philose.app",
+   "windows": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.26.exe"
   },
   "version": "0.3.26",
   "windows": {
    "url": "https://daekyoo1918-sudo.github.io/philose-modules/Philose-Setup-0.3.26.exe",
-   "sha256": "b1da9c415f8125260089aead542735f04d83794e62296a20d3664afd31a1b519",
-   "size": 50903678
+   "sha256": "be56f0e0d92edb4eb7fc9df23ff7e7f2eca646523374f0cc793583b412d4eb45",
+   "size": 50907719
   }
  },
  "revoked_licenses": [],
